@@ -1,0 +1,35 @@
+[0.071s] Invoking command in '/home/shorouk/ros2_ws/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/shorouk/ros2_ws/build/my_cpp_py_pkg -- -j4 -l4
+[0.276s] [35m[1mScanning dependencies of target cpp_executable[0m
+[0.404s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o[0m
+[16.172s] [100%] [32m[1mLinking CXX executable cpp_executable[0m
+[17.024s] [100%] Built target cpp_executable
+[17.073s] Invoked command in '/home/shorouk/ros2_ws/build/my_cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/shorouk/ros2_ws/build/my_cpp_py_pkg -- -j4 -l4
+[17.229s] Invoking command in '/home/shorouk/ros2_ws/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/shorouk/ros2_ws/build/my_cpp_py_pkg --target install -- -j4 -l4
+[17.474s] [100%] Built target cpp_executable
+[17.557s] [36mInstall the project...[0m
+[17.599s] -- Install configuration: ""
+[17.601s] -- Installing: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/lib/my_cpp_py_pkg/cpp_executable
+[17.607s] -- Set runtime path of "/home/shorouk/ros2_ws/install/my_cpp_py_pkg/lib/my_cpp_py_pkg/cpp_executable" to ""
+[17.609s] -- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/pythonpath.sh
+[17.610s] -- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/pythonpath.dsv
+[17.610s] -- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/lib/python3.6/site-packages/my_cpp_py_pkg
+[17.611s] -- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/lib/python3.6/site-packages/my_cpp_py_pkg/module_to_import.py
+[17.612s] -- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/lib/python3.6/site-packages/my_cpp_py_pkg/__init__.py
+[17.772s] Listing '/home/shorouk/ros2_ws/install/my_cpp_py_pkg/lib/python3.6/site-packages/my_cpp_py_pkg'...
+[17.789s] -- Installing: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/lib/my_cpp_py_pkg/py_node.py
+[17.790s] -- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_py_pkg
+[17.792s] -- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_py_pkg
+[17.793s] -- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/ament_prefix_path.sh
+[17.794s] -- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/ament_prefix_path.dsv
+[17.795s] -- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/path.sh
+[17.796s] -- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/path.dsv
+[17.797s] -- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.bash
+[17.798s] -- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.sh
+[17.799s] -- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.zsh
+[17.799s] -- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.dsv
+[17.800s] -- Installing: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/package.dsv
+[17.801s] -- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/ament_index/resource_index/packages/my_cpp_py_pkg
+[17.802s] -- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/cmake/my_cpp_py_pkgConfig.cmake
+[17.802s] -- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/cmake/my_cpp_py_pkgConfig-version.cmake
+[17.803s] -- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/package.xml
+[17.812s] Invoked command in '/home/shorouk/ros2_ws/build/my_cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/shorouk/ros2_ws/build/my_cpp_py_pkg --target install -- -j4 -l4

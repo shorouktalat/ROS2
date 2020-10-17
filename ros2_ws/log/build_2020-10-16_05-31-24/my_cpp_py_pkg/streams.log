@@ -1,0 +1,18 @@
+[0.086s] Invoking command in '/home/shorouk/ros2_ws/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent:/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg /usr/bin/cmake --build /home/shorouk/ros2_ws/build/my_cpp_py_pkg -- -j4 -l4
+[0.373s] [35m[1mScanning dependencies of target cpp_executable[0m
+[0.526s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o[0m
+[7.428s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:[m[K In member function ‘[01m[Kvoid MyNode::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[7.429s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:36:27:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMyNode::timer_callback(const MyNode*) const[m[K’
+[7.430s]         timer_callback(this[01;31m[K)[m[K ;
+[7.431s]                            [01;31m[K^[m[K
+[7.432s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:26:10:[m[K [01;36m[Knote: [m[Kcandidate: void MyNode::timer_callback()
+[7.434s]      void [01;36m[Ktimer_callback[m[K()
+[7.436s]           [01;36m[K^~~~~~~~~~~~~~[m[K
+[7.437s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:26:10:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[12.964s] CMakeFiles/cpp_executable.dir/build.make:62: recipe for target 'CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o' failed
+[12.973s] make[2]: *** [CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o] Error 1
+[12.976s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/cpp_executable.dir/all' failed
+[12.977s] Makefile:140: recipe for target 'all' failed
+[12.979s] make[1]: *** [CMakeFiles/cpp_executable.dir/all] Error 2
+[12.984s] make: *** [all] Error 2
+[12.989s] Invoked command in '/home/shorouk/ros2_ws/build/my_cpp_py_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent:/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg /usr/bin/cmake --build /home/shorouk/ros2_ws/build/my_cpp_py_pkg -- -j4 -l4

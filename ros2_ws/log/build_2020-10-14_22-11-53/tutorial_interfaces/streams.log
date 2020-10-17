@@ -1,0 +1,31 @@
+[0.061s] Invoking command in '/home/shorouk/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/shorouk/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/shorouk/ros2_ws/install/tutorial_interfaces
+[0.132s] -- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.247s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.158s] -- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+[1.433s] -- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[1.741s] CMake Error at /opt/ros/eloquent/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[1.741s]   rosidl_generate_interfaces() the passed file 'msg/Num.msg' doesn't exist
+[1.742s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[1.742s]   '/home/shorouk/ros2_ws/src/tutorial_interfaces'
+[1.743s] Call Stack (most recent call first):
+[1.743s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[1.744s] 
+[1.745s] 
+[1.746s] -- Configuring incomplete, errors occurred!
+[1.746s] See also "/home/shorouk/ros2_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[1.758s] Invoked command in '/home/shorouk/ros2_ws/build/tutorial_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/shorouk/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/shorouk/ros2_ws/install/tutorial_interfaces
+[1.819s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 66, in build
+    if await has_target(args.build_base, 'install'):
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 57, in has_target
+    return target in await get_makefile_targets(path)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 78, in get_makefile_targets
+    CMAKE_EXECUTABLE, '--build', path, '--target', 'help'], cwd=path)
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 110, in check_output
+    'Expected {args} to pass: {stderr_data}'.format_map(locals())
+AssertionError: Expected ['/usr/bin/cmake', '--build', '/home/shorouk/ros2_ws/build/tutorial_interfaces', '--target', 'help'] to pass: make: *** No rule to make target 'help'.  Stop.
+

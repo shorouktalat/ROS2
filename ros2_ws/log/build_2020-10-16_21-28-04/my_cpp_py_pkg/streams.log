@@ -1,0 +1,36 @@
+[0.090s] Invoking command in '/home/shorouk/ros2_ws/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/shorouk/ros2_ws/build/my_cpp_py_pkg -- -j4 -l4
+[0.326s] [35m[1mScanning dependencies of target cpp_executable[0m
+[0.430s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o[0m
+[5.848s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0[m[K,
+[5.849s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23[m[K,
+[5.850s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20[m[K,
+[5.850s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.851s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.851s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33[m[K,
+[5.852s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.852s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21[m[K,
+[5.852s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[5.853s]                  from [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:7[m[K:
+[5.853s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:[m[K In member function ‘[01m[Kvoid MyNode::timer_callback()[m[K’:
+[5.854s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:58:61:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kcmd_received[m[K’ in ‘[01m[K(MyNode*)this[m[K’, which is of pointer type ‘[01m[KMyNode*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+[5.854s]      RCLCPP_INFO(this->get_logger(), "Publishing: '%s'",this.[01;31m[Kc[m[Kmd_received);
+[5.855s]                                                              [01;31m[K^[m[K
+[5.855s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[5.856s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[5.856s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[5.856s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[5.857s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[5.857s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.858s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[5.858s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[5.859s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.859s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:58:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[5.860s]      [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: '%s'",this.cmd_received);
+[5.860s]      [01;36m[K^~~~~~~~~~~[m[K
+[10.139s] CMakeFiles/cpp_executable.dir/build.make:62: recipe for target 'CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o' failed
+[10.140s] make[2]: *** [CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o] Error 1
+[10.140s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/cpp_executable.dir/all' failed
+[10.141s] make[1]: *** [CMakeFiles/cpp_executable.dir/all] Error 2
+[10.141s] Makefile:140: recipe for target 'all' failed
+[10.142s] make: *** [all] Error 2
+[10.147s] Invoked command in '/home/shorouk/ros2_ws/build/my_cpp_py_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/shorouk/ros2_ws/build/my_cpp_py_pkg -- -j4 -l4

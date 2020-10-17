@@ -1,0 +1,38 @@
+-- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 0.8.4 (/opt/ros/eloquent/share/rclcpp/cmake)
+-- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 0.8.4 (/opt/ros/eloquent/share/rclpy/cmake)
+-- Found std_msgs: 0.8.1 (/opt/ros/eloquent/share/std_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shorouk/ros2_ws/build/my_cpp_py_pkg
+[100%] Built target cpp_executable
+[100%] Built target cpp_executable
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/lib/my_cpp_py_pkg/cpp_executable
+-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/pythonpath.sh
+-- Installing: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/pythonpath.dsv
+-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/lib/python3.6/site-packages/my_cpp_py_pkg
+-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/lib/python3.6/site-packages/my_cpp_py_pkg/module_to_import.py
+-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/lib/python3.6/site-packages/my_cpp_py_pkg/__init__.py
+Listing '/home/shorouk/ros2_ws/install/my_cpp_py_pkg/lib/python3.6/site-packages/my_cpp_py_pkg'...
+-- Installing: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/lib/my_cpp_py_pkg/py_node.py
+-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_py_pkg
+-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_py_pkg
+-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/path.sh
+-- Installing: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/path.dsv
+-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.bash
+-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.sh
+-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.zsh
+-- Installing: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.dsv
+-- Installing: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/package.dsv
+-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/ament_index/resource_index/packages/my_cpp_py_pkg
+-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/cmake/my_cpp_py_pkgConfig.cmake
+-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/cmake/my_cpp_py_pkgConfig-version.cmake
+-- Installing: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/package.xml

@@ -1,0 +1,10 @@
+[ 50%] [32m[1mLinking CXX executable cpp_executable[0m
+/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make[2]: *** [cpp_executable] Error 1
+CMakeFiles/cpp_executable.dir/build.make:129: recipe for target 'cpp_executable' failed
+CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/cpp_executable.dir/all' failed
+make[1]: *** [CMakeFiles/cpp_executable.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

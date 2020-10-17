@@ -1,0 +1,16 @@
+[35m[1mScanning dependencies of target cpp_executable[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o[0m
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:[m[K In member function ‘[01m[Kvoid MyNode::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:72:31:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMyNode::Direction(const SharedPtr&) const[m[K’
+   message.data = Direction(msg[01;31m[K)[m[K;
+                               [01;31m[K^[m[K
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:41:11:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string MyNode::Direction(std::__cxx11::string)
+    string [01;36m[KDirection[m[K(string x)
+           [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:41:11:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst SharedPtr {aka const std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >}[m[K’ to ‘[01m[Kstd::__cxx11::string {aka std::__cxx11::basic_string<char>}[m[K’
+CMakeFiles/cpp_executable.dir/build.make:62: recipe for target 'CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o' failed
+make[2]: *** [CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/cpp_executable.dir/all] Error 2
+CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/cpp_executable.dir/all' failed
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

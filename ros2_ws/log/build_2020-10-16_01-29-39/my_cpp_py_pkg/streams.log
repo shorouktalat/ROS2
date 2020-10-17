@@ -1,0 +1,22 @@
+[0.073s] Invoking command in '/home/shorouk/ros2_ws/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/shorouk/ros2_ws/build/my_cpp_py_pkg -- -j4 -l4
+[0.233s] -- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.362s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.407s] -- Found rclcpp: 0.8.4 (/opt/ros/eloquent/share/rclcpp/cmake)
+[1.477s] -- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[1.672s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[1.681s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.871s] -- Found rclpy: 0.8.4 (/opt/ros/eloquent/share/rclpy/cmake)
+[2.282s] -- Configuring done
+[2.329s] -- Generating done
+[2.338s] -- Build files have been written to: /home/shorouk/ros2_ws/build/my_cpp_py_pkg
+[2.484s] [ 50%] [32m[1mLinking CXX executable cpp_executable[0m
+[2.674s] /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o: In function `_start':
+[2.675s] (.text+0x20): undefined reference to `main'
+[2.675s] collect2: error: ld returned 1 exit status
+[2.679s] CMakeFiles/cpp_executable.dir/build.make:129: recipe for target 'cpp_executable' failed
+[2.683s] make[2]: *** [cpp_executable] Error 1
+[2.684s] make[1]: *** [CMakeFiles/cpp_executable.dir/all] Error 2
+[2.686s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/cpp_executable.dir/all' failed
+[2.689s] Makefile:140: recipe for target 'all' failed
+[2.692s] make: *** [all] Error 2
+[2.693s] Invoked command in '/home/shorouk/ros2_ws/build/my_cpp_py_pkg' returned '2': CMAKE_PREFIX_PATH=/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/shorouk/ros2_ws/build/my_cpp_py_pkg -- -j4 -l4

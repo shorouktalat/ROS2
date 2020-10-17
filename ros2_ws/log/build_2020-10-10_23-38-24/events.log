@@ -1,0 +1,59 @@
+[0.000000] (-) TimerEvent: {}
+[0.000696] (my_python_pkg) JobQueued: {'identifier': 'my_python_pkg', 'dependencies': OrderedDict()}
+[0.000900] (my_python_pkg) JobStarted: {'identifier': 'my_python_pkg'}
+[0.101017] (-) TimerEvent: {}
+[0.202391] (-) TimerEvent: {}
+[0.304671] (-) TimerEvent: {}
+[0.406111] (-) TimerEvent: {}
+[0.507139] (-) TimerEvent: {}
+[0.608021] (-) TimerEvent: {}
+[0.708909] (-) TimerEvent: {}
+[0.809758] (-) TimerEvent: {}
+[0.910615] (-) TimerEvent: {}
+[1.011466] (-) TimerEvent: {}
+[1.112318] (-) TimerEvent: {}
+[1.213239] (-) TimerEvent: {}
+[1.314081] (-) TimerEvent: {}
+[1.414947] (-) TimerEvent: {}
+[1.521021] (-) TimerEvent: {}
+[1.556974] (my_python_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_python_pkg', 'build', '--build-base', '/home/shorouk/ros2_ws/build/my_python_pkg/build', 'install', '--prefix', '/home/shorouk/ros2_ws/install/my_python_pkg', '--record', '/home/shorouk/ros2_ws/build/my_python_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/shorouk/ros2_ws/src/my_python_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shorouk', 'LC_TIME': 'ar_EG.UTF-8', 'TEXTDOMAIN': 'im-config', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1503', 'XDG_SESSION_TYPE': 'x11', 'LD_LIBRARY_PATH': '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib', 'SHLVL': '1', 'QT4_IM_MODULE': 'xim', 'HOME': '/home/shorouk', 'OLDPWD': '/home/shorouk/ros2_ws/install', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'ar_EG.UTF-8', 'MANAGERPID': '1362', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=9ebf803cd16a36ee306120045f81d233', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/shorouk/ros2_install', 'IM_CONFIG_PHASE': '2', 'ROS_DISTRO': 'eloquent', 'LOGNAME': 'shorouk', 'GTK_IM_MODULE': 'ibus', 'JOURNAL_STREAM': '9:35355', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'USERNAME': 'shorouk', 'XDG_SESSION_ID': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'INVOCATION_ID': 'dfb7074a417347cc9bf2ea7b88631dbc', 'SESSION_MANAGER': 'local/shorouk-Inspiron-5521:@/tmp/.ICE-unix/1408,unix/shorouk-Inspiron-5521:/tmp/.ICE-unix/1408', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6f9e5178_4885_497e_805c_164207b98e41', 'LC_ADDRESS': 'ar_EG.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_EG.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'GNOME_TERMINAL_SERVICE': ':1.132', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'AMENT_PREFIX_PATH': '/opt/ros/eloquent', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'LC_NAME': 'ar_EG.UTF-8', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_EG.UTF-8', 'TEXTDOMAINDIR': '/usr/share/locale/', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ar_EG.UTF-8', 'XDG_VTNR': '2', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shorouk/ros2_ws/build/my_python_pkg', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=9ebf803cd16a36ee306120045f81d233', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'LC_NUMERIC': 'ar_EG.UTF-8', 'PYTHONPATH': '/home/shorouk/ros2_ws/install/my_python_pkg/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages', 'LC_PAPER': 'ar_EG.UTF-8', 'COLCON': '1', 'VTE_VERSION': '5202'}, 'shell': False}
+[1.621406] (-) TimerEvent: {}
+[1.722464] (-) TimerEvent: {}
+[1.823320] (-) TimerEvent: {}
+[1.924191] (-) TimerEvent: {}
+[2.025101] (-) TimerEvent: {}
+[2.125957] (-) TimerEvent: {}
+[2.226790] (-) TimerEvent: {}
+[2.327617] (-) TimerEvent: {}
+[2.428437] (-) TimerEvent: {}
+[2.529293] (-) TimerEvent: {}
+[2.630133] (-) TimerEvent: {}
+[2.730976] (-) TimerEvent: {}
+[2.775832] (my_python_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.779752] (my_python_pkg) StdoutLine: {'line': b'writing ../../build/my_python_pkg/my_python_pkg.egg-info/PKG-INFO\n'}
+[2.781138] (my_python_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_python_pkg/my_python_pkg.egg-info/dependency_links.txt\n'}
+[2.782332] (my_python_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_python_pkg/my_python_pkg.egg-info/entry_points.txt\n'}
+[2.783432] (my_python_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_python_pkg/my_python_pkg.egg-info/requires.txt\n'}
+[2.784457] (my_python_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_python_pkg/my_python_pkg.egg-info/top_level.txt\n'}
+[2.831181] (-) TimerEvent: {}
+[2.932144] (-) TimerEvent: {}
+[2.958424] (my_python_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'\n"}
+[2.965757] (my_python_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'\n"}
+[2.966975] (my_python_pkg) StdoutLine: {'line': b'running build\n'}
+[2.967805] (my_python_pkg) StdoutLine: {'line': b'running build_py\n'}
+[2.968824] (my_python_pkg) StdoutLine: {'line': b'running install\n'}
+[2.970840] (my_python_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[2.975288] (my_python_pkg) StdoutLine: {'line': b'running install_data\n'}
+[2.977694] (my_python_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.985049] (my_python_pkg) StdoutLine: {'line': b"removing '/home/shorouk/ros2_ws/install/my_python_pkg/lib/python3.6/site-packages/my_python_pkg-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[2.986873] (my_python_pkg) StdoutLine: {'line': b'Copying ../../build/my_python_pkg/my_python_pkg.egg-info to /home/shorouk/ros2_ws/install/my_python_pkg/lib/python3.6/site-packages/my_python_pkg-0.0.0-py3.6.egg-info\n'}
+[2.991739] (my_python_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[3.032358] (-) TimerEvent: {}
+[3.072589] (my_python_pkg) StdoutLine: {'line': b'Installing test script to /home/shorouk/ros2_ws/install/my_python_pkg/lib/my_python_pkg\n'}
+[3.074435] (my_python_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/shorouk/ros2_ws/build/my_python_pkg/install.log'\n"}
+[3.132638] (-) TimerEvent: {}
+[3.147640] (my_python_pkg) CommandEnded: {'returncode': 0}
+[3.237963] (-) TimerEvent: {}
+[3.343869] (-) TimerEvent: {}
+[3.373483] (my_python_pkg) JobEnded: {'identifier': 'my_python_pkg', 'rc': 0}
+[3.377745] (-) EventReactorShutdown: {}

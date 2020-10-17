@@ -1,0 +1,6 @@
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:96:2:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+  [01;31m[Kauto[m[K message = std_msgs::msg::String();
+  [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/cpp_executable.dir/all] Error 2
+make: *** [all] Error 2

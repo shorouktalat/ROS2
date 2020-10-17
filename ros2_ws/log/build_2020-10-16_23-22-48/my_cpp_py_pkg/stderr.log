@@ -1,0 +1,14 @@
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:[m[K In member function ‘[01m[Kstd::__cxx11::string MyNode::Direction(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:36:22:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  auto message = std::[01;31m[KString[m[K();
+                      [01;31m[K^~~~~~[m[K
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:36:22:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kto_string[m[K’
+  auto message = std::[01;36m[KString[m[K();
+                      [01;36m[K^~~~~~[m[K
+                      [32m[Kto_string[m[K
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:59:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+ [01;31m[K}[m[K
+ [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/cpp_executable.dir/all] Error 2
+make: *** [all] Error 2

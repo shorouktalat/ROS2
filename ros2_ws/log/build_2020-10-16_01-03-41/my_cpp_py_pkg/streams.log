@@ -1,0 +1,36 @@
+[0.068s] Invoking command in '/home/shorouk/ros2_ws/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg /usr/bin/cmake /home/shorouk/ros2_ws/src/my_cpp_py_pkg -DCMAKE_INSTALL_PREFIX=/home/shorouk/ros2_ws/install/my_cpp_py_pkg
+[0.171s] CMake Error at CMakeLists.txt:19 (find_package):
+[0.172s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.173s]   has asked CMake to find a package configuration file provided by
+[0.174s]   "ament_cmake", but CMake did not find one.
+[0.175s] 
+[0.175s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.176s]   any of the following names:
+[0.177s] 
+[0.178s]     ament_cmakeConfig.cmake
+[0.179s]     ament_cmake-config.cmake
+[0.180s] 
+[0.182s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.184s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.185s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.186s]   has been installed.
+[0.188s] 
+[0.192s] 
+[0.198s] -- Configuring incomplete, errors occurred!
+[0.199s] See also "/home/shorouk/ros2_ws/build/my_cpp_py_pkg/CMakeFiles/CMakeOutput.log".
+[0.201s] Invoked command in '/home/shorouk/ros2_ws/build/my_cpp_py_pkg' returned '1': CMAKE_PREFIX_PATH=/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg /usr/bin/cmake /home/shorouk/ros2_ws/src/my_cpp_py_pkg -DCMAKE_INSTALL_PREFIX=/home/shorouk/ros2_ws/install/my_cpp_py_pkg
+[0.249s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 66, in build
+    if await has_target(args.build_base, 'install'):
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 57, in has_target
+    return target in await get_makefile_targets(path)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 78, in get_makefile_targets
+    CMAKE_EXECUTABLE, '--build', path, '--target', 'help'], cwd=path)
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 110, in check_output
+    'Expected {args} to pass: {stderr_data}'.format_map(locals())
+AssertionError: Expected ['/usr/bin/cmake', '--build', '/home/shorouk/ros2_ws/build/my_cpp_py_pkg', '--target', 'help'] to pass: make: *** No rule to make target 'help'.  Stop.
+

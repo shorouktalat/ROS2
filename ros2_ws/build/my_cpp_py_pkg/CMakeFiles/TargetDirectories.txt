@@ -1,0 +1,10 @@
+/home/shorouk/ros2_ws/build/my_cpp_py_pkg/CMakeFiles/install/strip.dir
+/home/shorouk/ros2_ws/build/my_cpp_py_pkg/CMakeFiles/install.dir
+/home/shorouk/ros2_ws/build/my_cpp_py_pkg/CMakeFiles/list_install_components.dir
+/home/shorouk/ros2_ws/build/my_cpp_py_pkg/CMakeFiles/my_cpp_py_pkg_uninstall.dir
+/home/shorouk/ros2_ws/build/my_cpp_py_pkg/CMakeFiles/uninstall.dir
+/home/shorouk/ros2_ws/build/my_cpp_py_pkg/CMakeFiles/edit_cache.dir
+/home/shorouk/ros2_ws/build/my_cpp_py_pkg/CMakeFiles/install/local.dir
+/home/shorouk/ros2_ws/build/my_cpp_py_pkg/CMakeFiles/cpp_executable.dir
+/home/shorouk/ros2_ws/build/my_cpp_py_pkg/CMakeFiles/test.dir
+/home/shorouk/ros2_ws/build/my_cpp_py_pkg/CMakeFiles/rebuild_cache.dir

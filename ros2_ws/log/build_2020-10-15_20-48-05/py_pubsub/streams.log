@@ -1,0 +1,25 @@
+[1.256s] Invoking command in '/home/shorouk/ros2_ws/src/py_pubsub': PYTHONPATH=/home/shorouk/ros2_ws/install/py_pubsub/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/shorouk/ros2_ws/build/py_pubsub/build install --prefix /home/shorouk/ros2_ws/install/py_pubsub --record /home/shorouk/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed
+[2.345s] running egg_info
+[2.348s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[2.350s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[2.351s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[2.353s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[2.354s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[2.532s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.539s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.540s] running build
+[2.540s] running build_py
+[2.541s] copying py_pubsub/publisher_member_function.py -> /home/shorouk/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[2.545s] running install
+[2.548s] running install_lib
+[2.554s] copying /home/shorouk/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/shorouk/ros2_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub
+[2.557s] byte-compiling /home/shorouk/ros2_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-36.pyc
+[2.567s] running install_data
+[2.570s] running install_egg_info
+[2.579s] removing '/home/shorouk/ros2_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub-0.0.0-py3.6.egg-info' (and everything under it)
+[2.580s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/shorouk/ros2_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub-0.0.0-py3.6.egg-info
+[2.585s] running install_scripts
+[2.677s] Installing listener script to /home/shorouk/ros2_ws/install/py_pubsub/lib/py_pubsub
+[2.679s] Installing talker script to /home/shorouk/ros2_ws/install/py_pubsub/lib/py_pubsub
+[2.681s] writing list of installed files to '/home/shorouk/ros2_ws/build/py_pubsub/install.log'
+[2.755s] Invoked command in '/home/shorouk/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/shorouk/ros2_ws/install/py_pubsub/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/shorouk/ros2_ws/build/py_pubsub/build install --prefix /home/shorouk/ros2_ws/install/py_pubsub --record /home/shorouk/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed

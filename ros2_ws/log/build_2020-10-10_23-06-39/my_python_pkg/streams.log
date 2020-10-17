@@ -1,0 +1,25 @@
+[1.149s] Invoking command in '/home/shorouk/ros2_ws/src/my_python_pkg': PYTHONPATH=/home/shorouk/ros2_ws/install/my_python_pkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_pkg build --build-base /home/shorouk/ros2_ws/build/my_python_pkg/build install --prefix /home/shorouk/ros2_ws/install/my_python_pkg --record /home/shorouk/ros2_ws/build/my_python_pkg/install.log --single-version-externally-managed
+[2.158s] running egg_info
+[2.161s] writing ../../build/my_python_pkg/my_python_pkg.egg-info/PKG-INFO
+[2.162s] writing dependency_links to ../../build/my_python_pkg/my_python_pkg.egg-info/dependency_links.txt
+[2.163s] writing entry points to ../../build/my_python_pkg/my_python_pkg.egg-info/entry_points.txt
+[2.164s] writing requirements to ../../build/my_python_pkg/my_python_pkg.egg-info/requires.txt
+[2.164s] writing top-level names to ../../build/my_python_pkg/my_python_pkg.egg-info/top_level.txt
+[2.333s] reading manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[2.339s] writing manifest file '../../build/my_python_pkg/my_python_pkg.egg-info/SOURCES.txt'
+[2.340s] running build
+[2.340s] running build_py
+[2.341s] copying my_python_pkg/my_python_node.py -> /home/shorouk/ros2_ws/build/my_python_pkg/build/lib/my_python_pkg
+[2.341s] running install
+[2.343s] running install_lib
+[2.346s] copying /home/shorouk/ros2_ws/build/my_python_pkg/build/lib/my_python_pkg/my_python_node.py -> /home/shorouk/ros2_ws/install/my_python_pkg/lib/python3.6/site-packages/my_python_pkg
+[2.348s] byte-compiling /home/shorouk/ros2_ws/install/my_python_pkg/lib/python3.6/site-packages/my_python_pkg/my_python_node.py to my_python_node.cpython-36.pyc
+[2.349s] running install_data
+[2.351s] copying package.xml -> /home/shorouk/ros2_ws/install/my_python_pkg/share/my_python_pkg
+[2.352s] running install_egg_info
+[2.358s] removing '/home/shorouk/ros2_ws/install/my_python_pkg/lib/python3.6/site-packages/my_python_pkg-0.0.0-py3.6.egg-info' (and everything under it)
+[2.360s] Copying ../../build/my_python_pkg/my_python_pkg.egg-info to /home/shorouk/ros2_ws/install/my_python_pkg/lib/python3.6/site-packages/my_python_pkg-0.0.0-py3.6.egg-info
+[2.364s] running install_scripts
+[2.444s] Installing test script to /home/shorouk/ros2_ws/install/my_python_pkg/lib/my_python_pkg
+[2.445s] writing list of installed files to '/home/shorouk/ros2_ws/build/my_python_pkg/install.log'
+[2.519s] Invoked command in '/home/shorouk/ros2_ws/src/my_python_pkg' returned '0': PYTHONPATH=/home/shorouk/ros2_ws/install/my_python_pkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_python_pkg build --build-base /home/shorouk/ros2_ws/build/my_python_pkg/build install --prefix /home/shorouk/ros2_ws/install/my_python_pkg --record /home/shorouk/ros2_ws/build/my_python_pkg/install.log --single-version-externally-managed

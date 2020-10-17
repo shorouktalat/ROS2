@@ -1,0 +1,32 @@
+[0.088s] Invoking command in '/home/shorouk/ros2_ws/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent:/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg /usr/bin/cmake --build /home/shorouk/ros2_ws/build/my_cpp_py_pkg -- -j4 -l4
+[0.334s] [35m[1mScanning dependencies of target cpp_executable[0m
+[0.450s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o[0m
+[5.883s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:[m[K In constructor ‘[01m[KMyNode::MyNode()[m[K’:
+[5.884s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:11:32:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMyNode[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+[5.885s]      MyNode() : Node("my_node"),[01;31m[Kcount_[m[K(0)
+[5.886s]                                 [01;31m[K^~~~~~[m[K
+[5.979s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:15:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope
+[5.980s]           [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::String>("topic1", 10);
+[5.980s]           [01;31m[K^~~~~~~~~~[m[K
+[5.988s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:15:10:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krcl_publisher_t[m[K’
+[5.989s]           [01;36m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::String>("topic1", 10);
+[5.990s]           [01;36m[K^~~~~~~~~~[m[K
+[5.991s]           [32m[Krcl_publisher_t[m[K
+[6.021s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:[m[K In member function ‘[01m[Kvoid MyNode::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[6.021s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:24:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount_[m[K’ was not declared in this scope
+[6.022s]        message.data = "Hello, world! " + std::to_string([01;31m[Kcount_[m[K++);
+[6.023s]                                                         [01;31m[K^~~~~~[m[K
+[6.027s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:26:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope
+[6.028s]        [01;31m[Kpublisher_[m[K->publish(message);
+[6.029s]        [01;31m[K^~~~~~~~~~[m[K
+[6.034s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:26:7:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krcl_publisher_t[m[K’
+[6.035s]        [01;36m[Kpublisher_[m[K->publish(message);
+[6.035s]        [01;36m[K^~~~~~~~~~[m[K
+[6.036s]        [32m[Krcl_publisher_t[m[K
+[10.319s] CMakeFiles/cpp_executable.dir/build.make:62: recipe for target 'CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o' failed
+[10.320s] make[2]: *** [CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o] Error 1
+[10.321s] make[1]: *** [CMakeFiles/cpp_executable.dir/all] Error 2
+[10.322s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/cpp_executable.dir/all' failed
+[10.322s] make: *** [all] Error 2
+[10.323s] Makefile:140: recipe for target 'all' failed
+[10.329s] Invoked command in '/home/shorouk/ros2_ws/build/my_cpp_py_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent:/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg /usr/bin/cmake --build /home/shorouk/ros2_ws/build/my_cpp_py_pkg -- -j4 -l4

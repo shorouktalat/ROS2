@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.001078] (-) JobUnselected: {'identifier': 'my_cpp_py_pkg'}
+[0.001768] (-) JobUnselected: {'identifier': 'my_python_pkg'}
+[0.002065] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.002260] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.002488] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.005742] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.098502] (-) TimerEvent: {}
+[0.200347] (-) TimerEvent: {}
+[0.302019] (-) TimerEvent: {}
+[0.402992] (-) TimerEvent: {}
+[0.503928] (-) TimerEvent: {}
+[0.604916] (-) TimerEvent: {}
+[0.705882] (-) TimerEvent: {}
+[0.807010] (-) TimerEvent: {}
+[0.907995] (-) TimerEvent: {}
+[1.009057] (-) TimerEvent: {}
+[1.110184] (-) TimerEvent: {}
+[1.211012] (-) TimerEvent: {}
+[1.312199] (-) TimerEvent: {}
+[1.413569] (-) TimerEvent: {}
+[1.514456] (-) TimerEvent: {}
+[1.615570] (-) TimerEvent: {}
+[1.716581] (-) TimerEvent: {}
+[1.799994] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/shorouk/ros2_ws/build/py_pubsub/build', 'install', '--prefix', '/home/shorouk/ros2_ws/install/py_pubsub', '--record', '/home/shorouk/ros2_ws/build/py_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/home/shorouk/ros2_ws/src/py_pubsub', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shorouk', 'LC_TIME': 'ar_EG.UTF-8', 'TEXTDOMAIN': 'im-config', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1679', 'XDG_SESSION_TYPE': 'x11', 'LD_LIBRARY_PATH': '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib', 'SHLVL': '1', 'OLDPWD': '/home/shorouk', 'QT4_IM_MODULE': 'xim', 'HOME': '/home/shorouk', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'ar_EG.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/shorouk/ros2_ws/install', 'IM_CONFIG_PHASE': '2', 'ROS_DISTRO': 'eloquent', 'LOGNAME': 'shorouk', 'GTK_IM_MODULE': 'ibus', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'USERNAME': 'shorouk', 'XDG_SESSION_ID': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/eloquent/bin:/home/shorouk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/shorouk-Inspiron-5521:@/tmp/.ICE-unix/1584,unix/shorouk-Inspiron-5521:/tmp/.ICE-unix/1584', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9716451a_74dc_48b8_8fc0_4c2e88a4b9ef', 'LC_ADDRESS': 'ar_EG.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_EG.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'GNOME_TERMINAL_SERVICE': ':1.72', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'AMENT_PREFIX_PATH': '/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg:/home/shorouk/ros2_ws/install/my_cpp_py_pkg:/opt/ros/eloquent', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'LC_NAME': 'ar_EG.UTF-8', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_EG.UTF-8', 'TEXTDOMAINDIR': '/usr/share/locale/', 'GJS_DEBUG_OUTPUT': 'stderr', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ar_EG.UTF-8', 'XDG_VTNR': '2', 'QT_IM_MODULE': 'ibus', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/shorouk/ros2_ws/build/py_pubsub', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'LC_NUMERIC': 'ar_EG.UTF-8', 'PYTHONPATH': '/home/shorouk/ros2_ws/install/py_pubsub/lib/python3.6/site-packages:/home/shorouk/ros2_ws/install/py_srvcli/lib/python3.6/site-packages:/home/shorouk/ros2_ws/install/py_pubsub/lib/python3.6/site-packages:/home/shorouk/ros2_ws/install/my_python_pkg/lib/python3.6/site-packages:/home/shorouk/ros2_ws/install/my_cpp_py_pkg/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages', 'LC_PAPER': 'ar_EG.UTF-8', 'COLCON': '1', 'VTE_VERSION': '5202', 'CMAKE_PREFIX_PATH': '/home/shorouk/ros2_ws/install/my_cpp_py_pkg'}, 'shell': False}
+[1.819692] (-) TimerEvent: {}
+[1.926950] (-) TimerEvent: {}
+[2.029232] (-) TimerEvent: {}
+[2.130276] (-) TimerEvent: {}
+[2.231569] (-) TimerEvent: {}
+[2.332968] (-) TimerEvent: {}
+[2.434274] (-) TimerEvent: {}
+[2.535111] (-) TimerEvent: {}
+[2.636092] (-) TimerEvent: {}
+[2.737092] (-) TimerEvent: {}
+[2.838046] (-) TimerEvent: {}
+[2.939088] (-) TimerEvent: {}
+[3.040188] (-) TimerEvent: {}
+[3.141964] (-) TimerEvent: {}
+[3.243233] (-) TimerEvent: {}
+[3.344149] (-) TimerEvent: {}
+[3.445124] (-) TimerEvent: {}
+[3.546407] (-) TimerEvent: {}
+[3.589860] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[3.594681] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[3.596503] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[3.598721] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[3.600062] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[3.601078] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[3.646586] (-) TimerEvent: {}
+[3.747630] (-) TimerEvent: {}
+[3.848671] (-) TimerEvent: {}
+[3.949506] (-) TimerEvent: {}
+[3.995843] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[4.015750] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[4.017360] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[4.018045] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[4.029775] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[4.032536] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[4.049779] (-) TimerEvent: {}
+[4.068088] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[4.079342] (py_pubsub) StdoutLine: {'line': b'copying package.xml -> /home/shorouk/ros2_ws/install/py_pubsub/share/py_pubsub\n'}
+[4.080617] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.123756] (py_pubsub) StdoutLine: {'line': b"removing '/home/shorouk/ros2_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[4.125445] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/shorouk/ros2_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub-0.0.0-py3.6.egg-info\n'}
+[4.137726] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[4.150077] (-) TimerEvent: {}
+[4.251186] (-) TimerEvent: {}
+[4.341628] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/shorouk/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[4.342996] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/shorouk/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[4.346562] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/shorouk/ros2_ws/build/py_pubsub/install.log'\n"}
+[4.351454] (-) TimerEvent: {}
+[4.454009] (py_pubsub) CommandEnded: {'returncode': 0}
+[4.458021] (-) TimerEvent: {}
+[4.560470] (-) TimerEvent: {}
+[4.682959] (-) TimerEvent: {}
+[4.785243] (-) TimerEvent: {}
+[4.792007] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[4.802156] (-) EventReactorShutdown: {}

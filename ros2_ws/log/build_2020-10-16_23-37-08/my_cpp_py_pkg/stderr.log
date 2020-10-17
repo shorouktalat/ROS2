@@ -1,0 +1,10 @@
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:[m[K In member function ‘[01m[Kvoid MyNode::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:66:7:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto message[m[K’
+  auto [01;31m[Kmessage[m[K = std::string();
+       [01;31m[K^~~~~~~[m[K
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:65:7:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::__cxx11::basic_string<char> message[m[K’
+  auto [01;36m[Kmessage[m[K = std::string();
+       [01;36m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/cpp_executable.dir/all] Error 2
+make: *** [all] Error 2

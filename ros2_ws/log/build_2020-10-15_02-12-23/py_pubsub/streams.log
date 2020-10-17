@@ -1,0 +1,28 @@
+[1.242s] Invoking command in '/home/shorouk/ros2_ws/src/py_pubsub': PYTHONPATH=/home/shorouk/ros2_ws/install/py_pubsub/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/shorouk/ros2_ws/build/py_pubsub/build install --prefix /home/shorouk/ros2_ws/install/py_pubsub --record /home/shorouk/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed
+[2.335s] running egg_info
+[2.338s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[2.339s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[2.340s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[2.341s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[2.342s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[2.531s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.538s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.539s] running build
+[2.539s] running build_py
+[2.540s] copying py_pubsub/publisher_member_function.py -> /home/shorouk/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[2.541s] running install
+[2.543s] running install_lib
+[2.546s] copying /home/shorouk/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/shorouk/ros2_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub
+[2.548s] byte-compiling /home/shorouk/ros2_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-36.pyc
+[2.554s] Sorry: IndentationError: unexpected indent (publisher_member_function.py, line 284)
+[2.554s] byte-compiling /home/shorouk/ros2_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub/imagenode1.py to imagenode1.cpython-36.pyc
+[2.558s] Sorry: IndentationError: unexpected indent (imagenode1.py, line 244)
+[2.559s] running install_data
+[2.561s] running install_egg_info
+[2.570s] removing '/home/shorouk/ros2_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub-0.0.0-py3.6.egg-info' (and everything under it)
+[2.571s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/shorouk/ros2_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub-0.0.0-py3.6.egg-info
+[2.575s] running install_scripts
+[2.673s] Installing listener script to /home/shorouk/ros2_ws/install/py_pubsub/lib/py_pubsub
+[2.674s] Installing talker script to /home/shorouk/ros2_ws/install/py_pubsub/lib/py_pubsub
+[2.676s] writing list of installed files to '/home/shorouk/ros2_ws/build/py_pubsub/install.log'
+[2.754s] Invoked command in '/home/shorouk/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/shorouk/ros2_ws/install/py_pubsub/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/shorouk/ros2_ws/build/py_pubsub/build install --prefix /home/shorouk/ros2_ws/install/py_pubsub --record /home/shorouk/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed

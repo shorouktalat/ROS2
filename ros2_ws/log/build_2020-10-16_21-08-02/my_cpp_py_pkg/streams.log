@@ -1,0 +1,22 @@
+[0.069s] Invoking command in '/home/shorouk/ros2_ws/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/shorouk/ros2_ws/build/my_cpp_py_pkg -- -j4 -l4
+[0.267s] [35m[1mScanning dependencies of target cpp_executable[0m
+[0.370s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o[0m
+[5.232s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:95:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ does not name a type; did you mean ‘[01m[Kstdin[m[K’?
+[5.232s]     [01;31m[Kstring[m[K msgback;
+[5.233s]     [01;31m[K^~~~~~[m[K
+[5.233s]     [32m[Kstdin[m[K
+[5.234s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:[m[K In constructor ‘[01m[KMyNode::MyNode()[m[K’:
+[5.235s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:25:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope
+[5.236s]      [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::String>(
+[5.236s]      [01;31m[K^~~~~~~~~~~~~[m[K
+[5.245s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:25:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krcl_subscription_t[m[K’
+[5.245s]      [01;36m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::String>(
+[5.246s]      [01;36m[K^~~~~~~~~~~~~[m[K
+[5.246s]      [32m[Krcl_subscription_t[m[K
+[9.664s] CMakeFiles/cpp_executable.dir/build.make:62: recipe for target 'CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o' failed
+[9.666s] make[2]: *** [CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o] Error 1
+[9.667s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/cpp_executable.dir/all' failed
+[9.667s] make[1]: *** [CMakeFiles/cpp_executable.dir/all] Error 2
+[9.668s] Makefile:140: recipe for target 'all' failed
+[9.669s] make: *** [all] Error 2
+[9.674s] Invoked command in '/home/shorouk/ros2_ws/build/my_cpp_py_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/shorouk/ros2_ws/build/my_cpp_py_pkg -- -j4 -l4

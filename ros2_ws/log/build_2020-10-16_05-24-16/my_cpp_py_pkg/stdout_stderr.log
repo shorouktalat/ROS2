@@ -1,0 +1,23 @@
+[35m[1mScanning dependencies of target cpp_executable[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o[0m
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:[m[K In constructor ‘[01m[KMyNode::MyNode()[m[K’:
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:17:82:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMyNode::create_wall_timer(double, std::_Bind_helper<false, void (MyNode::*)(), MyNode*>::type)[m[K’
+ timer_= this->create_wall_timer(0.5, std::bind(&MyNode::timer_callback, this)[01;31m[K)[m[K;
+                                                                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/eloquent/include/rclcpp/executors/single_threaded_executor.hpp:28:0[m[K,
+                 from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+                 from [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:7[m[K:
+[01m[K/opt/ros/eloquent/include/rclcpp/node.hpp:227:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::callback_group::CallbackGroup::SharedPtr)
+   [01;36m[Kcreate_wall_timer[m[K(
+   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/eloquent/include/rclcpp/node.hpp:227:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:17:82:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::chrono::duration<_Rep1, _Period1>[m[K’ and ‘[01m[Kdouble[m[K’
+ timer_= this->create_wall_timer(0.5, std::bind(&MyNode::timer_callback, this)[01;36m[K)[m[K;
+                                                                              [01;36m[K^[m[K
+CMakeFiles/cpp_executable.dir/build.make:62: recipe for target 'CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o' failed
+make[2]: *** [CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o] Error 1
+CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/cpp_executable.dir/all' failed
+Makefile:140: recipe for target 'all' failed
+make[1]: *** [CMakeFiles/cpp_executable.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,120 @@
+[3.952s] DEBUG:colcon:Command line arguments: ['/home/shorouk/.local/bin/colcon', 'build', '--packages-select', 'py_srvcli']
+[3.953s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fcffe4e0748>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['py_srvcli'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fcffe4e0748>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fcffe4e0a90>)
+[4.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.111s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shorouk/ros2_ws/src'
+[4.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.181s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.182s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.182s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.185s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.186s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.186s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.187s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.188s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.188s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.189s] Level 1:colcon.colcon_core.package_identification:_identify(my_python_pkg) by extensions ['ignore', 'ignore_ament_install']
+[4.189s] Level 1:colcon.colcon_core.package_identification:_identify(my_python_pkg) by extension 'ignore'
+[4.189s] Level 1:colcon.colcon_core.package_identification:_identify(my_python_pkg) by extension 'ignore_ament_install'
+[4.190s] Level 1:colcon.colcon_core.package_identification:_identify(my_python_pkg) by extensions ['colcon_pkg']
+[4.190s] Level 1:colcon.colcon_core.package_identification:_identify(my_python_pkg) by extension 'colcon_pkg'
+[4.191s] Level 1:colcon.colcon_core.package_identification:_identify(my_python_pkg) by extensions ['colcon_meta']
+[4.191s] Level 1:colcon.colcon_core.package_identification:_identify(my_python_pkg) by extension 'colcon_meta'
+[4.191s] Level 1:colcon.colcon_core.package_identification:_identify(my_python_pkg) by extensions ['ros']
+[4.192s] Level 1:colcon.colcon_core.package_identification:_identify(my_python_pkg) by extension 'ros'
+[4.210s] DEBUG:colcon.colcon_core.package_identification:Package 'my_python_pkg' with type 'ros.ament_python' and name 'my_python_pkg'
+[4.210s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[4.211s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extension 'ignore'
+[4.211s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extension 'ignore_ament_install'
+[4.212s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extensions ['colcon_pkg']
+[4.212s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extension 'colcon_pkg'
+[4.212s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extensions ['colcon_meta']
+[4.213s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extension 'colcon_meta'
+[4.213s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extensions ['ros']
+[4.213s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extension 'ros'
+[4.217s] DEBUG:colcon.colcon_core.package_identification:Package 'py_srvcli' with type 'ros.ament_python' and name 'py_srvcli'
+[4.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.487s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'my_python_pkg' in 'my_python_pkg'
+[4.577s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_args' from command line to 'None'
+[4.577s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target' from command line to 'None'
+[4.577s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.577s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[4.578s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[4.578s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[4.578s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[4.578s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[4.578s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.579s] DEBUG:colcon.colcon_core.verb:Building package 'py_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shorouk/ros2_ws/src/build/py_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shorouk/ros2_ws/src/install/py_srvcli', 'merge_install': False, 'path': '/home/shorouk/ros2_ws/src/py_srvcli', 'symlink_install': False, 'test_result_base': None}
+[4.602s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.751s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.752s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/shorouk/ros2_ws/src/py_srvcli' with build type 'ament_python'
+[4.753s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'ament_prefix_path')
+[4.838s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shorouk/ros2_ws/src/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.ps1'
+[4.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shorouk/ros2_ws/src/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.dsv'
+[4.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shorouk/ros2_ws/src/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.sh'
+[4.926s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.927s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.977s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[6.393s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/shorouk/ros2_ws/src/py_srvcli'
+[6.459s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.459s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.507s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[6.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shorouk/ros2_ws/src/py_srvcli': PYTHONPATH=/home/shorouk/ros2_ws/src/install/py_srvcli/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_srvcli build --build-base /home/shorouk/ros2_ws/src/build/py_srvcli/build install --prefix /home/shorouk/ros2_ws/src/install/py_srvcli --record /home/shorouk/ros2_ws/src/build/py_srvcli/install.log --single-version-externally-managed
+[8.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shorouk/ros2_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/shorouk/ros2_ws/src/install/py_srvcli/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_srvcli build --build-base /home/shorouk/ros2_ws/src/build/py_srvcli/build install --prefix /home/shorouk/ros2_ws/src/install/py_srvcli --record /home/shorouk/ros2_ws/src/build/py_srvcli/install.log --single-version-externally-managed
+[8.442s] Level 1:colcon.colcon_core.environment:checking '/home/shorouk/ros2_ws/src/install/py_srvcli' for CMake module files
+[8.445s] Level 1:colcon.colcon_core.environment:checking '/home/shorouk/ros2_ws/src/install/py_srvcli' for CMake config files
+[8.449s] Level 1:colcon.colcon_core.environment:checking '/home/shorouk/ros2_ws/src/install/py_srvcli/lib'
+[8.451s] Level 1:colcon.colcon_core.environment:checking '/home/shorouk/ros2_ws/src/install/py_srvcli/bin'
+[8.452s] Level 1:colcon.colcon_core.environment:checking '/home/shorouk/ros2_ws/src/install/py_srvcli/lib/pkgconfig/py_srvcli.pc'
+[8.452s] Level 1:colcon.colcon_core.environment:checking '/home/shorouk/ros2_ws/src/install/py_srvcli/lib/python3.6/site-packages'
+[8.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'pythonpath')
+[8.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shorouk/ros2_ws/src/install/py_srvcli/share/py_srvcli/hook/pythonpath.ps1'
+[8.521s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shorouk/ros2_ws/src/install/py_srvcli/share/py_srvcli/hook/pythonpath.dsv'
+[8.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shorouk/ros2_ws/src/install/py_srvcli/share/py_srvcli/hook/pythonpath.sh'
+[8.526s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_srvcli)
+[8.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/shorouk/ros2_ws/src/install/py_srvcli/share/py_srvcli/package.ps1'
+[8.596s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shorouk/ros2_ws/src/install/py_srvcli/share/py_srvcli/package.dsv'
+[8.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/shorouk/ros2_ws/src/install/py_srvcli/share/py_srvcli/package.sh'
+[8.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/shorouk/ros2_ws/src/install/py_srvcli/share/py_srvcli/package.bash'
+[8.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/shorouk/ros2_ws/src/install/py_srvcli/share/py_srvcli/package.zsh'
+[8.612s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shorouk/ros2_ws/src/install/py_srvcli/share/colcon-core/packages/py_srvcli)
+[8.613s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.615s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.616s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.616s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.695s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.695s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.696s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.707s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.776s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shorouk/ros2_ws/src/install/local_setup.ps1'
+[8.781s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shorouk/ros2_ws/src/install/_local_setup_util_ps1.py'
+[8.790s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shorouk/ros2_ws/src/install/setup.ps1'
+[8.843s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shorouk/ros2_ws/src/install/local_setup.sh'
+[8.846s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shorouk/ros2_ws/src/install/_local_setup_util_sh.py'
+[8.849s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shorouk/ros2_ws/src/install/setup.sh'
+[8.904s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shorouk/ros2_ws/src/install/local_setup.bash'
+[8.907s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shorouk/ros2_ws/src/install/setup.bash'
+[8.961s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shorouk/ros2_ws/src/install/local_setup.zsh'
+[8.963s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shorouk/ros2_ws/src/install/setup.zsh'

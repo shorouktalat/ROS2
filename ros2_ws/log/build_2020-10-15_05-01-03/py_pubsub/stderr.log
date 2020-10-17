@@ -1,0 +1,5 @@
+  File "/home/shorouk/ros2_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub/publisher_member_function.py", line 13
+    class MinimalPublisher(Node):
+        ^
+SyntaxError: invalid syntax
+

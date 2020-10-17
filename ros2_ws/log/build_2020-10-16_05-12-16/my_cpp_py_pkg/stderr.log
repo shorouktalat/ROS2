@@ -1,0 +1,24 @@
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:[m[K In constructor ‘[01m[KMyNode::MyNode()[m[K’:
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:15:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope
+     [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::String>("topic1", 10);
+     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:15:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krcl_publisher_t[m[K’
+     [01;36m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::String>("topic1", 10);
+     [01;36m[K^~~~~~~~~~[m[K
+     [32m[Krcl_publisher_t[m[K
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:16:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope
+     [01;31m[Ktimer_[m[K= this->create_wall_timer(500ms, std::bind(&MyNode::timer_callback, this));
+     [01;31m[K^~~~~~[m[K
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:16:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ktimer_t[m[K’
+     [01;36m[Ktimer_[m[K= this->create_wall_timer(500ms, std::bind(&MyNode::timer_callback, this));
+     [01;36m[K^~~~~~[m[K
+     [32m[Ktimer_t[m[K
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:16:37:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+     timer_= this->create_wall_timer([01;31m[K500ms[m[K, std::bind(&MyNode::timer_callback, this));
+                                     [01;31m[K^~~~~[m[K
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:16:63:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KMyNode[m[K’
+     timer_= this->create_wall_timer(500ms, std::bind(&MyNode::[01;31m[Ktimer_callback[m[K, this));
+                                                               [01;31m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/cpp_executable.dir/all] Error 2
+make: *** [all] Error 2

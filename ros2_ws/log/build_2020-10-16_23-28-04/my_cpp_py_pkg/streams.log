@@ -1,0 +1,43 @@
+[0.068s] Invoking command in '/home/shorouk/ros2_ws/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/shorouk/ros2_ws/build/my_cpp_py_pkg -- -j4 -l4
+[0.256s] [35m[1mScanning dependencies of target cpp_executable[0m
+[0.357s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o[0m
+[5.371s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:[m[K In member function ‘[01m[Kvoid MyNode::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[5.372s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:66:40:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMyNode::Direction(const char*) const[m[K’
+[5.372s]    message = Direction(msg->data.c_str()[01;31m[K)[m[K;
+[5.373s]                                         [01;31m[K^[m[K
+[5.374s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:34:9:[m[K [01;36m[Knote: [m[Kcandidate: std::__cxx11::string MyNode::Direction(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)
+[5.376s]   string [01;36m[KDirection[m[K(std_msgs::msg::String::SharedPtr  x)
+[5.376s]          [01;36m[K^~~~~~~~~[m[K
+[5.377s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:34:9:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >::SharedPtr {aka std::shared_ptr<std_msgs::msg::String_<std::allocator<void> > >}[m[K’
+[5.377s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0[m[K,
+[5.378s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23[m[K,
+[5.378s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20[m[K,
+[5.378s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.379s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.379s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33[m[K,
+[5.380s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.380s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21[m[K,
+[5.381s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[5.381s]                  from [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:7[m[K:
+[5.382s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:69:65:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kconst _CharT* std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::data() const [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[5.382s]      RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", [01;31m[Kmessage.d[m[Kata.c_str());
+[5.382s]                                                          [01;31m[K~~~~~~~~^[m[K
+[5.383s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[5.383s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[5.384s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[5.385s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[5.385s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[5.385s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.386s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[5.386s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[5.387s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.387s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:69:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[5.388s]      [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: '%s'", message.data.c_str());
+[5.389s]      [01;36m[K^~~~~~~~~~~[m[K
+[9.651s] CMakeFiles/cpp_executable.dir/build.make:62: recipe for target 'CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o' failed
+[9.654s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/cpp_executable.dir/all' failed
+[9.655s] make[2]: *** [CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o] Error 1
+[9.656s] make[1]: *** [CMakeFiles/cpp_executable.dir/all] Error 2
+[9.657s] make: *** [all] Error 2
+[9.658s] Makefile:140: recipe for target 'all' failed
+[9.662s] Invoked command in '/home/shorouk/ros2_ws/build/my_cpp_py_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/shorouk/ros2_ws/build/my_cpp_py_pkg -- -j4 -l4

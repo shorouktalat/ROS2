@@ -1,0 +1,29 @@
+[35m[1mScanning dependencies of target cpp_executable[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o[0m
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:[m[K In constructor ‘[01m[KMyNode::MyNode()[m[K’:
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:14:5:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K{[m[K’ token
+     [01;31m[K{[m[K
+     [01;31m[K^[m[K
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:15:10:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope
+          [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::String>(
+          [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:15:10:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krcl_subscription_t[m[K’
+          [01;36m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::String>(
+          [01;36m[K^~~~~~~~~~~~~[m[K
+          [32m[Krcl_subscription_t[m[K
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:16:40:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_callback[m[K’ is not a member of ‘[01m[KMyNode[m[K’
+       "topic", 10, std::bind(&MyNode ::[01;31m[Ktopic_callback[m[K, this, _1));
+                                        [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:17:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope
+          [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::String>("topic1", 10);
+          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:17:10:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krcl_publisher_t[m[K’
+          [01;36m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::String>("topic1", 10);
+          [01;36m[K^~~~~~~~~~[m[K
+          [32m[Krcl_publisher_t[m[K
+CMakeFiles/cpp_executable.dir/build.make:62: recipe for target 'CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o' failed
+make[2]: *** [CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o] Error 1
+CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/cpp_executable.dir/all' failed
+make[1]: *** [CMakeFiles/cpp_executable.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

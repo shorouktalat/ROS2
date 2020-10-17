@@ -1,0 +1,3 @@
+[console_scripts]
+talker = my_python_pkg.node1sub:mainlistener = my_python_pkg.node2lis:main
+

@@ -1,0 +1,30 @@
+[2.601s] Invoking command in '/home/shorouk/ros2_ws/src/py_srvcli': PYTHONPATH=/home/shorouk/ros2_ws/install/py_srvcli/lib/python3.7/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/shorouk/ros2_ws/build/py_srvcli/build install --prefix /home/shorouk/ros2_ws/install/py_srvcli --record /home/shorouk/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed
+[5.100s] running egg_info
+[5.103s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[5.106s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[5.108s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[5.108s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[5.109s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[5.566s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[5.573s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[5.577s] running build
+[5.579s] running build_py
+[5.580s] running install
+[5.584s] running install_lib
+[5.602s] creating /home/shorouk/ros2_ws/install/py_srvcli/lib/python3.7/site-packages/py_srvcli
+[5.604s] copying /home/shorouk/ros2_ws/build/py_srvcli/build/lib/py_srvcli/service.py -> /home/shorouk/ros2_ws/install/py_srvcli/lib/python3.7/site-packages/py_srvcli
+[5.606s] copying /home/shorouk/ros2_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/shorouk/ros2_ws/install/py_srvcli/lib/python3.7/site-packages/py_srvcli
+[5.607s] copying /home/shorouk/ros2_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/shorouk/ros2_ws/install/py_srvcli/lib/python3.7/site-packages/py_srvcli
+[5.609s] copying /home/shorouk/ros2_ws/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/shorouk/ros2_ws/install/py_srvcli/lib/python3.7/site-packages/py_srvcli
+[5.613s] byte-compiling /home/shorouk/ros2_ws/install/py_srvcli/lib/python3.7/site-packages/py_srvcli/service.py to service.cpython-37.pyc
+[5.615s] byte-compiling /home/shorouk/ros2_ws/install/py_srvcli/lib/python3.7/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-37.pyc
+[5.617s] byte-compiling /home/shorouk/ros2_ws/install/py_srvcli/lib/python3.7/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-37.pyc
+[5.621s] byte-compiling /home/shorouk/ros2_ws/install/py_srvcli/lib/python3.7/site-packages/py_srvcli/__init__.py to __init__.cpython-37.pyc
+[5.622s] running install_data
+[5.631s] running install_egg_info
+[5.652s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/shorouk/ros2_ws/install/py_srvcli/lib/python3.7/site-packages/py_srvcli-0.0.0-py3.7.egg-info
+[5.657s] running install_scripts
+[5.945s] Installing client script to /home/shorouk/ros2_ws/install/py_srvcli/lib/py_srvcli
+[5.946s] Installing service script to /home/shorouk/ros2_ws/install/py_srvcli/lib/py_srvcli
+[5.948s] writing list of installed files to '/home/shorouk/ros2_ws/build/py_srvcli/install.log'
+[6.055s] Invoked command in '/home/shorouk/ros2_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/shorouk/ros2_ws/install/py_srvcli/lib/python3.7/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/shorouk/ros2_ws/build/py_srvcli/build install --prefix /home/shorouk/ros2_ws/install/py_srvcli --record /home/shorouk/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed

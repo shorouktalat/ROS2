@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.002063] (-) JobUnselected: {'identifier': 'my_python_pkg'}
+[0.002461] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.003638] (-) EventReactorShutdown: {}

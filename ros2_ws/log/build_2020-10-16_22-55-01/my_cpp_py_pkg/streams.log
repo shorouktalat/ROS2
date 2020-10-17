@@ -1,0 +1,31 @@
+[0.073s] Invoking command in '/home/shorouk/ros2_ws/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/shorouk/ros2_ws/build/my_cpp_py_pkg -- -j4 -l4
+[0.271s] [35m[1mScanning dependencies of target cpp_executable[0m
+[0.377s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o[0m
+[5.534s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:97:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsgback[m[K’ does not name a type; did you mean ‘[01m[Ksigstack[m[K’?
+[5.535s]     [01;31m[Kmsgback[m[K =std_msgs::msg::String();
+[5.535s]     [01;31m[K^~~~~~~[m[K
+[5.536s]     [32m[Ksigstack[m[K
+[5.730s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:[m[K In member function ‘[01m[Kvoid MyNode::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[5.730s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:41:1:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ was not declared in this scope
+[5.731s]  [01;31m[KString[m[K Direction(String x)
+[5.731s]  [01;31m[K^~~~~~[m[K
+[5.732s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:41:1:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+[5.732s] In file included from [01m[K/opt/ros/eloquent/include/std_msgs/msg/string.hpp:7:0[m[K,
+[5.732s]                  from [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:8[m[K:
+[5.734s] [01m[K/opt/ros/eloquent/include/std_msgs/msg/string__struct.hpp:122:47:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::String[m[K’
+[5.734s]    std_msgs::msg::String_<std::allocator<void>>[01;36m[K;[m[K
+[5.735s]                                                [01;36m[K^[m[K
+[5.735s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:67:18:[m[K [01;31m[Kerror: [m[K‘[01m[KDirection[m[K’ was not declared in this scope
+[5.736s]    message.data = [01;31m[KDirection[m[K(msg->data.c_str());
+[5.736s]                   [01;31m[K^~~~~~~~~[m[K
+[5.737s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:67:18:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksigaction[m[K’
+[5.738s]    message.data = [01;36m[KDirection[m[K(msg->data.c_str());
+[5.739s]                   [01;36m[K^~~~~~~~~[m[K
+[5.740s]                   [32m[Ksigaction[m[K
+[10.011s] CMakeFiles/cpp_executable.dir/build.make:62: recipe for target 'CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o' failed
+[10.012s] make[2]: *** [CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o] Error 1
+[10.013s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/cpp_executable.dir/all' failed
+[10.014s] make[1]: *** [CMakeFiles/cpp_executable.dir/all] Error 2
+[10.014s] make: *** [all] Error 2
+[10.015s] Makefile:140: recipe for target 'all' failed
+[10.020s] Invoked command in '/home/shorouk/ros2_ws/build/my_cpp_py_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/shorouk/ros2_ws/build/my_cpp_py_pkg -- -j4 -l4

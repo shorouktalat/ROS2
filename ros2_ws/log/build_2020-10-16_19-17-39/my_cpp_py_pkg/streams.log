@@ -1,0 +1,85 @@
+[0.069s] Invoking command in '/home/shorouk/ros2_ws/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/shorouk/ros2_ws/build/my_cpp_py_pkg -- -j4 -l4
+[0.256s] [35m[1mScanning dependencies of target cpp_executable[0m
+[0.357s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o[0m
+[5.315s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:[m[K In constructor ‘[01m[KMyNode::MyNode()[m[K’:
+[5.316s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:49:57:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K/[m[K’ token
+[5.317s]        500ms, std::bind(&MyNode::timer_callback, this));*[01;31m[K/[m[K
+[5.317s]                                                          [01;31m[K^[m[K
+[5.377s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/client.hpp:39:0[m[K,
+[5.377s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:23[m[K,
+[5.378s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20[m[K,
+[5.378s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.379s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.379s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33[m[K,
+[5.380s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.380s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21[m[K,
+[5.380s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[5.381s]                  from [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:7[m[K:
+[5.381s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:[m[K In member function ‘[01m[Kvoid MyNode::timer_callback()[m[K’:
+[5.382s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:61:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[5.382s]      RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", [01;31m[Km[m[Ksg.data.c_str());
+[5.383s]                                                          [01;31m[K^[m[K
+[5.383s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[5.384s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[5.384s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[5.384s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[5.385s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[5.385s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.386s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[5.386s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[5.387s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.387s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:61:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[5.388s]      [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: '%s'", msg.data.c_str());
+[5.388s]      [01;36m[K^~~~~~~~~~~[m[K
+[5.389s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:61:57:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[5.390s]      RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", [01;36m[Km[m[Ksg.data.c_str());
+[5.390s]                                                          [01;36m[K^[m[K
+[5.391s] [01m[K/opt/ros/eloquent/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[5.391s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[5.391s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[5.392s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:541:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[5.392s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[5.393s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.393s] [01m[K/opt/ros/eloquent/include/rclcpp/logging.hpp:544:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[5.394s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[5.394s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.395s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:61:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[5.395s]      [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing: '%s'", msg.data.c_str());
+[5.396s]      [01;36m[K^~~~~~~~~~~[m[K
+[5.396s] In file included from [01m[K/opt/ros/eloquent/include/builtin_interfaces/msg/duration.hpp:7:0[m[K,
+[5.397s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/duration.hpp:20[m[K,
+[5.397s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/qos.hpp:21[m[K,
+[5.397s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/publisher_base.hpp:31[m[K,
+[5.398s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/callback_group.hpp:24[m[K,
+[5.398s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/any_executable.hpp:20[m[K,
+[5.399s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.399s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.400s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executor.hpp:33[m[K,
+[5.400s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.401s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21[m[K,
+[5.401s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[5.402s]                  from [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:7[m[K:
+[5.402s] [01m[K/opt/ros/eloquent/include/builtin_interfaces/msg/duration__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[5.403s]  namespace [01;36m[Kmsg[m[K
+[5.403s]            [01;36m[K^~~[m[K
+[5.404s] In file included from [01m[K/opt/ros/eloquent/include/rcl_interfaces/msg/list_parameters_result.hpp:7:0[m[K,
+[5.404s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/node.hpp:32[m[K,
+[5.404s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[5.405s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:22[m[K,
+[5.405s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[5.406s]                  from [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:7[m[K:
+[5.406s] [01m[K/opt/ros/eloquent/include/rcl_interfaces/msg/list_parameters_result__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[5.407s]  namespace [01;36m[Kmsg[m[K
+[5.407s]            [01;36m[K^~~[m[K
+[5.408s] In file included from [01m[K/opt/ros/eloquent/include/std_msgs/msg/string.hpp:7:0[m[K,
+[5.408s]                  from [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:8[m[K:
+[5.409s] [01m[K/opt/ros/eloquent/include/std_msgs/msg/string__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+[5.409s]  namespace [01;36m[Kmsg[m[K
+[5.410s]            [01;36m[K^~~[m[K
+[9.368s] CMakeFiles/cpp_executable.dir/build.make:62: recipe for target 'CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o' failed
+[9.369s] make[2]: *** [CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o] Error 1
+[9.370s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/cpp_executable.dir/all' failed
+[9.371s] make[1]: *** [CMakeFiles/cpp_executable.dir/all] Error 2
+[9.371s] make: *** [all] Error 2
+[9.371s] Makefile:140: recipe for target 'all' failed
+[9.378s] Invoked command in '/home/shorouk/ros2_ws/build/my_cpp_py_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/shorouk/ros2_ws/build/my_cpp_py_pkg -- -j4 -l4

@@ -1,0 +1,26 @@
+[1.932s] Invoking command in '/home/shorouk/ros2_ws/src/py_srvcli': PYTHONPATH=/home/shorouk/ros2_ws/install/py_srvcli/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/shorouk/ros2_ws/build/py_srvcli/build install --prefix /home/shorouk/ros2_ws/install/py_srvcli --record /home/shorouk/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed
+[3.174s] running egg_info
+[3.177s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[3.178s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[3.179s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[3.180s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[3.180s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[3.349s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[3.355s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[3.355s] running build
+[3.357s] running build_py
+[3.357s] copying py_srvcli/client_member_function.py -> /home/shorouk/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[3.358s] running install
+[3.359s] running install_lib
+[3.362s] copying /home/shorouk/ros2_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/shorouk/ros2_ws/install/py_srvcli/lib/python3.6/site-packages/py_srvcli
+[3.364s] byte-compiling /home/shorouk/ros2_ws/install/py_srvcli/lib/python3.6/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-36.pyc
+[3.365s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (client_member_function.py, line 19)
+[3.366s] running install_data
+[3.366s] running install_egg_info
+[3.373s] removing '/home/shorouk/ros2_ws/install/py_srvcli/lib/python3.6/site-packages/py_srvcli-0.0.0-py3.6.egg-info' (and everything under it)
+[3.374s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/shorouk/ros2_ws/install/py_srvcli/lib/python3.6/site-packages/py_srvcli-0.0.0-py3.6.egg-info
+[3.378s] running install_scripts
+[3.459s] Installing client script to /home/shorouk/ros2_ws/install/py_srvcli/lib/py_srvcli
+[3.460s] Installing service script to /home/shorouk/ros2_ws/install/py_srvcli/lib/py_srvcli
+[3.462s] writing list of installed files to '/home/shorouk/ros2_ws/build/py_srvcli/install.log'
+[3.538s] Invoked command in '/home/shorouk/ros2_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/shorouk/ros2_ws/install/py_srvcli/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/shorouk/ros2_ws/build/py_srvcli/build install --prefix /home/shorouk/ros2_ws/install/py_srvcli --record /home/shorouk/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed

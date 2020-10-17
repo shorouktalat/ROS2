@@ -1,0 +1,26 @@
+[35m[1mScanning dependencies of target cpp_executable[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o[0m
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:[m[K In constructor ‘[01m[KMyNode::MyNode()[m[K’:
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:16:31:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ has not been declared
+       "topic", 10, std::bind(&[01;31m[KMinimalSubscriber[m[K::topic_callback, this, _1));
+                               [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:16:72:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope
+       "topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, [01;31m[K_1[m[K));
+                                                                        [01;31m[K^~[m[K
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:16:72:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/opt/ros/eloquent/include/rclcpp/context.hpp:19:0[m[K,
+                 from [01m[K/opt/ros/eloquent/include/rclcpp/contexts/default_context.hpp:18[m[K,
+                 from [01m[K/opt/ros/eloquent/include/rclcpp/executor.hpp:32[m[K,
+                 from [01m[K/opt/ros/eloquent/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+                 from [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:2[m[K:
+[01m[K/usr/include/c++/7/functional:275:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::placeholders::_1[m[K’
+     extern const _Placeholder<1> [01;36m[K_1[m[K;
+                                  [01;36m[K^~[m[K
+CMakeFiles/cpp_executable.dir/build.make:62: recipe for target 'CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o' failed
+make[2]: *** [CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o] Error 1
+CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/cpp_executable.dir/all' failed
+make[1]: *** [CMakeFiles/cpp_executable.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

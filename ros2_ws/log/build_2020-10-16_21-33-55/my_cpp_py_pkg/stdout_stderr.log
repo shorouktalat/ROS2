@@ -1,0 +1,20 @@
+[35m[1mScanning dependencies of target cpp_executable[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o[0m
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:96:31:[m[K [01;31m[Kerror: [m[Kexpected identifier before string constant
+    std::string cmd_receiveds1([01;31m[K"What is ?"[m[K);
+                               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:96:31:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before string constant
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:[m[K In member function ‘[01m[Kvoid MyNode::timer_callback()[m[K’:
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:57:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_received[m[K’ was not declared in this scope
+     message.data = [01;31m[Kcmd_received[m[K;
+                    [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:57:20:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcmd_receiveds1[m[K’
+     message.data = [01;36m[Kcmd_received[m[K;
+                    [01;36m[K^~~~~~~~~~~~[m[K
+                    [32m[Kcmd_receiveds1[m[K
+CMakeFiles/cpp_executable.dir/build.make:62: recipe for target 'CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o' failed
+make[2]: *** [CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/cpp_executable.dir/all] Error 2
+CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/cpp_executable.dir/all' failed
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

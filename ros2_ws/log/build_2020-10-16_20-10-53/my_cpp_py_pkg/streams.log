@@ -1,0 +1,22 @@
+[0.065s] Invoking command in '/home/shorouk/ros2_ws/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/shorouk/ros2_ws/build/my_cpp_py_pkg -- -j4 -l4
+[0.262s] [35m[1mScanning dependencies of target cpp_executable[0m
+[0.363s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o[0m
+[5.125s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:41:4:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ does not name a type; did you mean ‘[01m[Kstdin[m[K’?
+[5.126s]     [01;31m[KString[m[K Direction(String x)
+[5.127s]     [01;31m[K^~~~~~[m[K
+[5.128s]     [32m[Kstdin[m[K
+[5.412s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:[m[K In member function ‘[01m[Kvoid MyNode::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[5.413s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:79:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessge[m[K’ was not declared in this scope
+[5.414s]     [01;31m[Kmessge[m[K.data= "Right + Down";
+[5.416s]     [01;31m[K^~~~~~[m[K
+[5.417s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:79:4:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kmessage[m[K’
+[5.418s]     [01;36m[Kmessge[m[K.data= "Right + Down";
+[5.420s]     [01;36m[K^~~~~~[m[K
+[5.421s]     [32m[Kmessage[m[K
+[9.665s] CMakeFiles/cpp_executable.dir/build.make:62: recipe for target 'CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o' failed
+[9.666s] make[2]: *** [CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o] Error 1
+[9.668s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/cpp_executable.dir/all' failed
+[9.668s] make[1]: *** [CMakeFiles/cpp_executable.dir/all] Error 2
+[9.669s] make: *** [all] Error 2
+[9.670s] Makefile:140: recipe for target 'all' failed
+[9.675s] Invoked command in '/home/shorouk/ros2_ws/build/my_cpp_py_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/shorouk/ros2_ws/build/my_cpp_py_pkg -- -j4 -l4

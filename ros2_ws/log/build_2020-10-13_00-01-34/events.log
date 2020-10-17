@@ -1,0 +1,65 @@
+[0.000000] (-) TimerEvent: {}
+[0.000691] (-) JobUnselected: {'identifier': 'my_python_pkg'}
+[0.000934] (py_srvcli) JobQueued: {'identifier': 'py_srvcli', 'dependencies': OrderedDict()}
+[0.001097] (py_srvcli) JobStarted: {'identifier': 'py_srvcli'}
+[0.100803] (-) TimerEvent: {}
+[0.207216] (-) TimerEvent: {}
+[0.308714] (-) TimerEvent: {}
+[0.410153] (-) TimerEvent: {}
+[0.510994] (-) TimerEvent: {}
+[0.611846] (-) TimerEvent: {}
+[0.712790] (-) TimerEvent: {}
+[0.813638] (-) TimerEvent: {}
+[0.914518] (-) TimerEvent: {}
+[1.015354] (-) TimerEvent: {}
+[1.116203] (-) TimerEvent: {}
+[1.217079] (-) TimerEvent: {}
+[1.318209] (-) TimerEvent: {}
+[1.419064] (-) TimerEvent: {}
+[1.525047] (-) TimerEvent: {}
+[1.605390] (py_srvcli) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_srvcli', 'build', '--build-base', '/home/shorouk/ros2_ws/build/py_srvcli/build', 'install', '--prefix', '/home/shorouk/ros2_ws/install/py_srvcli', '--record', '/home/shorouk/ros2_ws/build/py_srvcli/install.log', '--single-version-externally-managed'], 'cwd': '/home/shorouk/ros2_ws/src/py_srvcli', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shorouk', 'LC_TIME': 'ar_EG.UTF-8', 'TEXTDOMAIN': 'im-config', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '2123', 'XDG_SESSION_TYPE': 'x11', 'LD_LIBRARY_PATH': '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib', 'SHLVL': '1', 'OLDPWD': '/home/shorouk', 'QT4_IM_MODULE': 'xim', 'HOME': '/home/shorouk', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'ar_EG.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/shorouk/ros2_install', 'COLCON_PREFIX_PATH': '/home/shorouk/ros2_ws/install', 'IM_CONFIG_PHASE': '2', 'ROS_DISTRO': 'eloquent', 'LOGNAME': 'shorouk', 'GTK_IM_MODULE': 'ibus', '_': '/home/shorouk/.local/bin/colcon', 'ROS_VERSION': '2', 'USERNAME': 'shorouk', 'XDG_SESSION_ID': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/eloquent/bin:/home/shorouk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/shorouk-Inspiron-5521:@/tmp/.ICE-unix/2024,unix/shorouk-Inspiron-5521:/tmp/.ICE-unix/2024', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/20673a0a_daf5_468e_a11d_991bc518456c', 'LC_ADDRESS': 'ar_EG.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_EG.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'GNOME_TERMINAL_SERVICE': ':1.100', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'AMENT_PREFIX_PATH': '/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/my_python_pkg:/opt/ros/eloquent', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'LC_NAME': 'ar_EG.UTF-8', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_EG.UTF-8', 'TEXTDOMAINDIR': '/usr/share/locale/', 'GJS_DEBUG_OUTPUT': 'stderr', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ar_EG.UTF-8', 'XDG_VTNR': '2', 'QT_IM_MODULE': 'ibus', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/shorouk/ros2_ws/build/py_srvcli', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'LC_NUMERIC': 'ar_EG.UTF-8', 'PYTHONPATH': '/home/shorouk/ros2_ws/install/py_srvcli/lib/python3.6/site-packages:/home/shorouk/ros2_ws/install/py_srvcli/lib/python3.6/site-packages:/home/shorouk/ros2_ws/install/my_python_pkg/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages', 'LC_PAPER': 'ar_EG.UTF-8', 'COLCON': '1', 'VTE_VERSION': '5202'}, 'shell': False}
+[1.625527] (-) TimerEvent: {}
+[1.728278] (-) TimerEvent: {}
+[1.829240] (-) TimerEvent: {}
+[1.930200] (-) TimerEvent: {}
+[2.031120] (-) TimerEvent: {}
+[2.132060] (-) TimerEvent: {}
+[2.233000] (-) TimerEvent: {}
+[2.333976] (-) TimerEvent: {}
+[2.434977] (-) TimerEvent: {}
+[2.535925] (-) TimerEvent: {}
+[2.636885] (-) TimerEvent: {}
+[2.737841] (-) TimerEvent: {}
+[2.826886] (py_srvcli) StdoutLine: {'line': b'running egg_info\n'}
+[2.829756] (py_srvcli) StdoutLine: {'line': b'writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO\n'}
+[2.830837] (py_srvcli) StdoutLine: {'line': b'writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt\n'}
+[2.831811] (py_srvcli) StdoutLine: {'line': b'writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt\n'}
+[2.832839] (py_srvcli) StdoutLine: {'line': b'writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt\n'}
+[2.833709] (py_srvcli) StdoutLine: {'line': b'writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt\n'}
+[2.838011] (-) TimerEvent: {}
+[2.938852] (-) TimerEvent: {}
+[3.001470] (py_srvcli) StdoutLine: {'line': b"reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[3.006967] (py_srvcli) StdoutLine: {'line': b"writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[3.008120] (py_srvcli) StdoutLine: {'line': b'running build\n'}
+[3.008920] (py_srvcli) StdoutLine: {'line': b'running build_py\n'}
+[3.009562] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/client_member_function.py -> /home/shorouk/ros2_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[3.010545] (py_srvcli) StdoutLine: {'line': b'running install\n'}
+[3.012005] (py_srvcli) StdoutLine: {'line': b'running install_lib\n'}
+[3.014925] (py_srvcli) StdoutLine: {'line': b'copying /home/shorouk/ros2_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/shorouk/ros2_ws/install/py_srvcli/lib/python3.6/site-packages/py_srvcli\n'}
+[3.016878] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/shorouk/ros2_ws/install/py_srvcli/lib/python3.6/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-36.pyc\n'}
+[3.018242] (py_srvcli) StderrLine: {'line': b'Sorry: TabError: inconsistent use of tabs and spaces in indentation (client_member_function.py, line 21)\n'}
+[3.018920] (py_srvcli) StdoutLine: {'line': b'running install_data\n'}
+[3.019881] (py_srvcli) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.026728] (py_srvcli) StdoutLine: {'line': b"removing '/home/shorouk/ros2_ws/install/py_srvcli/lib/python3.6/site-packages/py_srvcli-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[3.028082] (py_srvcli) StdoutLine: {'line': b'Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/shorouk/ros2_ws/install/py_srvcli/lib/python3.6/site-packages/py_srvcli-0.0.0-py3.6.egg-info\n'}
+[3.032021] (py_srvcli) StdoutLine: {'line': b'running install_scripts\n'}
+[3.039019] (-) TimerEvent: {}
+[3.113354] (py_srvcli) StdoutLine: {'line': b'Installing client script to /home/shorouk/ros2_ws/install/py_srvcli/lib/py_srvcli\n'}
+[3.114303] (py_srvcli) StdoutLine: {'line': b'Installing service script to /home/shorouk/ros2_ws/install/py_srvcli/lib/py_srvcli\n'}
+[3.115781] (py_srvcli) StdoutLine: {'line': b"writing list of installed files to '/home/shorouk/ros2_ws/build/py_srvcli/install.log'\n"}
+[3.139290] (-) TimerEvent: {}
+[3.187908] (py_srvcli) CommandEnded: {'returncode': 0}
+[3.243643] (-) TimerEvent: {}
+[3.349764] (-) TimerEvent: {}
+[3.414297] (py_srvcli) JobEnded: {'identifier': 'py_srvcli', 'rc': 0}
+[3.418547] (-) EventReactorShutdown: {}

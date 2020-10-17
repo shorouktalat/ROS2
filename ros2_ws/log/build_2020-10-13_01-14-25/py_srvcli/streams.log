@@ -1,0 +1,25 @@
+[1.988s] Invoking command in '/home/shorouk/ros2_ws/src/py_srvcli': PYTHONPATH=/home/shorouk/ros2_ws/install/py_srvcli/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/shorouk/ros2_ws/build/py_srvcli/build install --prefix /home/shorouk/ros2_ws/install/py_srvcli --record /home/shorouk/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed
+[3.401s] running egg_info
+[3.404s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[3.405s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[3.407s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[3.408s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[3.408s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[3.606s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[3.612s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[3.613s] running build
+[3.614s] running build_py
+[3.615s] copying py_srvcli/service.py -> /home/shorouk/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[3.616s] running install
+[3.618s] running install_lib
+[3.622s] copying /home/shorouk/ros2_ws/build/py_srvcli/build/lib/py_srvcli/service.py -> /home/shorouk/ros2_ws/install/py_srvcli/lib/python3.6/site-packages/py_srvcli
+[3.624s] byte-compiling /home/shorouk/ros2_ws/install/py_srvcli/lib/python3.6/site-packages/py_srvcli/service.py to service.cpython-36.pyc
+[3.627s] running install_data
+[3.628s] running install_egg_info
+[3.636s] removing '/home/shorouk/ros2_ws/install/py_srvcli/lib/python3.6/site-packages/py_srvcli-0.0.0-py3.6.egg-info' (and everything under it)
+[3.637s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/shorouk/ros2_ws/install/py_srvcli/lib/python3.6/site-packages/py_srvcli-0.0.0-py3.6.egg-info
+[3.641s] running install_scripts
+[3.724s] Installing client script to /home/shorouk/ros2_ws/install/py_srvcli/lib/py_srvcli
+[3.725s] Installing service script to /home/shorouk/ros2_ws/install/py_srvcli/lib/py_srvcli
+[3.726s] writing list of installed files to '/home/shorouk/ros2_ws/build/py_srvcli/install.log'
+[3.810s] Invoked command in '/home/shorouk/ros2_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/shorouk/ros2_ws/install/py_srvcli/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/shorouk/ros2_ws/build/py_srvcli/build install --prefix /home/shorouk/ros2_ws/install/py_srvcli --record /home/shorouk/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed

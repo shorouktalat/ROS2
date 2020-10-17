@@ -1,0 +1,273 @@
+[0.000000] (-) TimerEvent: {}
+[0.001069] (-) JobUnselected: {'identifier': 'my_python_pkg'}
+[0.001820] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.002210] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.004398] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.006355] (my_cpp_py_pkg) JobQueued: {'identifier': 'my_cpp_py_pkg', 'dependencies': OrderedDict()}
+[0.006944] (my_cpp_py_pkg) JobStarted: {'identifier': 'my_cpp_py_pkg'}
+[0.082120] (my_cpp_py_pkg) JobProgress: {'identifier': 'my_cpp_py_pkg', 'progress': 'cmake'}
+[0.085550] (my_cpp_py_pkg) JobProgress: {'identifier': 'my_cpp_py_pkg', 'progress': 'build'}
+[0.090005] (my_cpp_py_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shorouk/ros2_ws/build/my_cpp_py_pkg', '--', '-j4', '-l4'], 'cwd': '/home/shorouk/ros2_ws/build/my_cpp_py_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shorouk'), ('LC_TIME', 'ar_EG.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1543'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/shorouk'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/shorouk'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/shorouk/ros2_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'shorouk'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'shorouk'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/shorouk-Inspiron-5521:@/tmp/.ICE-unix/1448,unix/shorouk-Inspiron-5521:/tmp/.ICE-unix/1448'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1b248841_7e64_4eff_a123_ee5f945f0c8e'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.213'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/shorouk/ros2_ws/install/my_cpp_py_pkg:/opt/ros/eloquent:/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'ar_EG.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shorouk/ros2_ws/build/my_cpp_py_pkg'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('PYTHONPATH', '/home/shorouk/ros2_ws/install/my_cpp_py_pkg/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages:/home/shorouk/ros2_ws/install/py_srvcli/lib/python3.6/site-packages:/home/shorouk/ros2_ws/install/py_pubsub/lib/python3.6/site-packages:/home/shorouk/ros2_ws/install/my_python_pkg/lib/python3.6/site-packages'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/shorouk/ros2_ws/install/my_cpp_py_pkg:/opt/ros/eloquent:/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg')]), 'shell': False}
+[0.099714] (-) TimerEvent: {}
+[0.201142] (-) TimerEvent: {}
+[0.303324] (-) TimerEvent: {}
+[0.363411] (my_cpp_py_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cpp_executable\x1b[0m\n'}
+[0.403511] (-) TimerEvent: {}
+[0.497613] (my_cpp_py_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o\x1b[0m\n'}
+[0.503716] (-) TimerEvent: {}
+[0.604812] (-) TimerEvent: {}
+[0.705947] (-) TimerEvent: {}
+[0.807114] (-) TimerEvent: {}
+[0.908387] (-) TimerEvent: {}
+[1.009554] (-) TimerEvent: {}
+[1.110741] (-) TimerEvent: {}
+[1.212247] (-) TimerEvent: {}
+[1.313680] (-) TimerEvent: {}
+[1.414836] (-) TimerEvent: {}
+[1.515992] (-) TimerEvent: {}
+[1.617126] (-) TimerEvent: {}
+[1.718044] (-) TimerEvent: {}
+[1.818988] (-) TimerEvent: {}
+[1.920161] (-) TimerEvent: {}
+[2.021300] (-) TimerEvent: {}
+[2.122439] (-) TimerEvent: {}
+[2.223614] (-) TimerEvent: {}
+[2.325018] (-) TimerEvent: {}
+[2.426364] (-) TimerEvent: {}
+[2.527519] (-) TimerEvent: {}
+[2.628635] (-) TimerEvent: {}
+[2.729778] (-) TimerEvent: {}
+[2.830927] (-) TimerEvent: {}
+[2.932082] (-) TimerEvent: {}
+[3.033226] (-) TimerEvent: {}
+[3.134305] (-) TimerEvent: {}
+[3.235540] (-) TimerEvent: {}
+[3.336751] (-) TimerEvent: {}
+[3.437858] (-) TimerEvent: {}
+[3.538995] (-) TimerEvent: {}
+[3.640039] (-) TimerEvent: {}
+[3.741062] (-) TimerEvent: {}
+[3.842177] (-) TimerEvent: {}
+[3.943134] (-) TimerEvent: {}
+[4.044081] (-) TimerEvent: {}
+[4.145010] (-) TimerEvent: {}
+[4.245863] (-) TimerEvent: {}
+[4.346878] (-) TimerEvent: {}
+[4.447901] (-) TimerEvent: {}
+[4.549001] (-) TimerEvent: {}
+[4.650736] (-) TimerEvent: {}
+[4.751593] (-) TimerEvent: {}
+[4.852743] (-) TimerEvent: {}
+[4.953836] (-) TimerEvent: {}
+[5.054988] (-) TimerEvent: {}
+[5.156235] (-) TimerEvent: {}
+[5.257125] (-) TimerEvent: {}
+[5.358266] (-) TimerEvent: {}
+[5.459394] (-) TimerEvent: {}
+[5.560500] (-) TimerEvent: {}
+[5.661595] (-) TimerEvent: {}
+[5.762822] (-) TimerEvent: {}
+[5.863956] (-) TimerEvent: {}
+[5.964984] (-) TimerEvent: {}
+[6.066235] (-) TimerEvent: {}
+[6.167358] (-) TimerEvent: {}
+[6.268386] (-) TimerEvent: {}
+[6.369520] (-) TimerEvent: {}
+[6.470676] (-) TimerEvent: {}
+[6.571761] (-) TimerEvent: {}
+[6.672894] (-) TimerEvent: {}
+[6.774172] (-) TimerEvent: {}
+[6.875294] (-) TimerEvent: {}
+[6.976148] (-) TimerEvent: {}
+[7.077265] (-) TimerEvent: {}
+[7.178444] (-) TimerEvent: {}
+[7.279580] (-) TimerEvent: {}
+[7.380778] (-) TimerEvent: {}
+[7.481979] (-) TimerEvent: {}
+[7.583151] (-) TimerEvent: {}
+[7.684062] (-) TimerEvent: {}
+[7.785139] (-) TimerEvent: {}
+[7.886286] (-) TimerEvent: {}
+[7.987311] (-) TimerEvent: {}
+[8.088264] (-) TimerEvent: {}
+[8.189445] (-) TimerEvent: {}
+[8.290625] (-) TimerEvent: {}
+[8.391734] (-) TimerEvent: {}
+[8.492840] (-) TimerEvent: {}
+[8.594022] (-) TimerEvent: {}
+[8.694995] (-) TimerEvent: {}
+[8.796009] (-) TimerEvent: {}
+[8.896981] (-) TimerEvent: {}
+[8.998155] (-) TimerEvent: {}
+[9.099282] (-) TimerEvent: {}
+[9.200430] (-) TimerEvent: {}
+[9.301492] (-) TimerEvent: {}
+[9.402449] (-) TimerEvent: {}
+[9.503584] (-) TimerEvent: {}
+[9.604555] (-) TimerEvent: {}
+[9.705524] (-) TimerEvent: {}
+[9.806775] (-) TimerEvent: {}
+[9.907875] (-) TimerEvent: {}
+[10.009065] (-) TimerEvent: {}
+[10.110015] (-) TimerEvent: {}
+[10.211340] (-) TimerEvent: {}
+[10.312478] (-) TimerEvent: {}
+[10.413948] (-) TimerEvent: {}
+[10.515159] (-) TimerEvent: {}
+[10.616267] (-) TimerEvent: {}
+[10.717379] (-) TimerEvent: {}
+[10.818420] (-) TimerEvent: {}
+[10.919438] (-) TimerEvent: {}
+[11.020581] (-) TimerEvent: {}
+[11.121503] (-) TimerEvent: {}
+[11.222381] (-) TimerEvent: {}
+[11.323542] (-) TimerEvent: {}
+[11.424404] (-) TimerEvent: {}
+[11.525525] (-) TimerEvent: {}
+[11.627426] (-) TimerEvent: {}
+[11.728516] (-) TimerEvent: {}
+[11.829630] (-) TimerEvent: {}
+[11.930817] (-) TimerEvent: {}
+[12.031904] (-) TimerEvent: {}
+[12.132922] (-) TimerEvent: {}
+[12.233933] (-) TimerEvent: {}
+[12.334966] (-) TimerEvent: {}
+[12.436027] (-) TimerEvent: {}
+[12.537079] (-) TimerEvent: {}
+[12.638174] (-) TimerEvent: {}
+[12.739268] (-) TimerEvent: {}
+[12.840384] (-) TimerEvent: {}
+[12.941455] (-) TimerEvent: {}
+[13.042748] (-) TimerEvent: {}
+[13.143879] (-) TimerEvent: {}
+[13.244987] (-) TimerEvent: {}
+[13.346058] (-) TimerEvent: {}
+[13.447148] (-) TimerEvent: {}
+[13.548219] (-) TimerEvent: {}
+[13.649741] (-) TimerEvent: {}
+[13.750867] (-) TimerEvent: {}
+[13.851709] (-) TimerEvent: {}
+[13.952616] (-) TimerEvent: {}
+[14.053751] (-) TimerEvent: {}
+[14.154799] (-) TimerEvent: {}
+[14.255786] (-) TimerEvent: {}
+[14.356866] (-) TimerEvent: {}
+[14.457961] (-) TimerEvent: {}
+[14.559113] (-) TimerEvent: {}
+[14.660232] (-) TimerEvent: {}
+[14.761432] (-) TimerEvent: {}
+[14.862663] (-) TimerEvent: {}
+[14.963733] (-) TimerEvent: {}
+[15.064773] (-) TimerEvent: {}
+[15.165926] (-) TimerEvent: {}
+[15.267058] (-) TimerEvent: {}
+[15.368136] (-) TimerEvent: {}
+[15.469231] (-) TimerEvent: {}
+[15.570400] (-) TimerEvent: {}
+[15.671635] (-) TimerEvent: {}
+[15.772739] (-) TimerEvent: {}
+[15.873565] (-) TimerEvent: {}
+[15.974560] (-) TimerEvent: {}
+[16.075661] (-) TimerEvent: {}
+[16.176718] (-) TimerEvent: {}
+[16.277799] (-) TimerEvent: {}
+[16.379019] (-) TimerEvent: {}
+[16.480172] (-) TimerEvent: {}
+[16.581281] (-) TimerEvent: {}
+[16.682374] (-) TimerEvent: {}
+[16.783427] (-) TimerEvent: {}
+[16.884468] (-) TimerEvent: {}
+[16.985507] (-) TimerEvent: {}
+[17.086610] (-) TimerEvent: {}
+[17.187698] (-) TimerEvent: {}
+[17.288785] (-) TimerEvent: {}
+[17.389889] (-) TimerEvent: {}
+[17.490847] (-) TimerEvent: {}
+[17.591920] (-) TimerEvent: {}
+[17.693088] (-) TimerEvent: {}
+[17.794211] (-) TimerEvent: {}
+[17.895325] (-) TimerEvent: {}
+[17.996410] (-) TimerEvent: {}
+[18.097520] (-) TimerEvent: {}
+[18.198591] (-) TimerEvent: {}
+[18.299662] (-) TimerEvent: {}
+[18.400697] (-) TimerEvent: {}
+[18.501818] (-) TimerEvent: {}
+[18.602902] (-) TimerEvent: {}
+[18.703982] (-) TimerEvent: {}
+[18.805079] (-) TimerEvent: {}
+[18.906138] (-) TimerEvent: {}
+[19.007239] (-) TimerEvent: {}
+[19.108275] (-) TimerEvent: {}
+[19.209675] (-) TimerEvent: {}
+[19.310958] (-) TimerEvent: {}
+[19.412143] (-) TimerEvent: {}
+[19.513086] (-) TimerEvent: {}
+[19.614068] (-) TimerEvent: {}
+[19.715071] (-) TimerEvent: {}
+[19.816022] (-) TimerEvent: {}
+[19.917178] (-) TimerEvent: {}
+[20.018088] (-) TimerEvent: {}
+[20.119266] (-) TimerEvent: {}
+[20.220420] (-) TimerEvent: {}
+[20.321457] (-) TimerEvent: {}
+[20.422581] (-) TimerEvent: {}
+[20.523648] (-) TimerEvent: {}
+[20.624701] (-) TimerEvent: {}
+[20.689911] (my_cpp_py_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cpp_executable\x1b[0m\n'}
+[20.724965] (-) TimerEvent: {}
+[20.826200] (-) TimerEvent: {}
+[20.927513] (-) TimerEvent: {}
+[21.028669] (-) TimerEvent: {}
+[21.129702] (-) TimerEvent: {}
+[21.230860] (-) TimerEvent: {}
+[21.331872] (-) TimerEvent: {}
+[21.432896] (-) TimerEvent: {}
+[21.533811] (-) TimerEvent: {}
+[21.637851] (-) TimerEvent: {}
+[21.662308] (my_cpp_py_pkg) StdoutLine: {'line': b'[100%] Built target cpp_executable\n'}
+[21.720954] (my_cpp_py_pkg) CommandEnded: {'returncode': 0}
+[21.738359] (-) TimerEvent: {}
+[21.836014] (my_cpp_py_pkg) JobProgress: {'identifier': 'my_cpp_py_pkg', 'progress': 'install'}
+[21.840862] (-) TimerEvent: {}
+[21.898385] (my_cpp_py_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shorouk/ros2_ws/build/my_cpp_py_pkg', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/shorouk/ros2_ws/build/my_cpp_py_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shorouk'), ('LC_TIME', 'ar_EG.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1543'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/shorouk'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/shorouk'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/shorouk/ros2_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'shorouk'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'shorouk'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/shorouk-Inspiron-5521:@/tmp/.ICE-unix/1448,unix/shorouk-Inspiron-5521:/tmp/.ICE-unix/1448'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1b248841_7e64_4eff_a123_ee5f945f0c8e'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.213'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/shorouk/ros2_ws/install/my_cpp_py_pkg:/opt/ros/eloquent:/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'ar_EG.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shorouk/ros2_ws/build/my_cpp_py_pkg'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('PYTHONPATH', '/home/shorouk/ros2_ws/install/my_cpp_py_pkg/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages:/home/shorouk/ros2_ws/install/py_srvcli/lib/python3.6/site-packages:/home/shorouk/ros2_ws/install/py_pubsub/lib/python3.6/site-packages:/home/shorouk/ros2_ws/install/my_python_pkg/lib/python3.6/site-packages'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/shorouk/ros2_ws/install/my_cpp_py_pkg:/opt/ros/eloquent:/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg')]), 'shell': False}
+[21.940818] (-) TimerEvent: {}
+[22.042083] (-) TimerEvent: {}
+[22.143319] (-) TimerEvent: {}
+[22.182628] (my_cpp_py_pkg) StdoutLine: {'line': b'[100%] Built target cpp_executable\n'}
+[22.243579] (-) TimerEvent: {}
+[22.291204] (my_cpp_py_pkg) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[22.343784] (-) TimerEvent: {}
+[22.353510] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.355569] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/lib/my_cpp_py_pkg/cpp_executable\n'}
+[22.364945] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/shorouk/ros2_ws/install/my_cpp_py_pkg/lib/my_cpp_py_pkg/cpp_executable" to ""\n'}
+[22.365979] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/pythonpath.sh\n'}
+[22.366810] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/pythonpath.dsv\n'}
+[22.367797] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/lib/python3.6/site-packages/my_cpp_py_pkg\n'}
+[22.368393] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/lib/python3.6/site-packages/my_cpp_py_pkg/module_to_import.py\n'}
+[22.369218] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/lib/python3.6/site-packages/my_cpp_py_pkg/__init__.py\n'}
+[22.444014] (-) TimerEvent: {}
+[22.545078] (-) TimerEvent: {}
+[22.562327] (my_cpp_py_pkg) StdoutLine: {'line': b"Listing '/home/shorouk/ros2_ws/install/my_cpp_py_pkg/lib/python3.6/site-packages/my_cpp_py_pkg'...\n"}
+[22.580442] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/lib/my_cpp_py_pkg/py_node.py\n'}
+[22.582089] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_py_pkg\n'}
+[22.583283] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_py_pkg\n'}
+[22.584495] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/ament_prefix_path.sh\n'}
+[22.585598] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/ament_prefix_path.dsv\n'}
+[22.586560] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/path.sh\n'}
+[22.587711] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/environment/path.dsv\n'}
+[22.588504] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.bash\n'}
+[22.589338] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.sh\n'}
+[22.590121] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.zsh\n'}
+[22.590968] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/local_setup.dsv\n'}
+[22.591882] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Installing: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/package.dsv\n'}
+[22.592696] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/ament_index/resource_index/packages/my_cpp_py_pkg\n'}
+[22.593548] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/cmake/my_cpp_py_pkgConfig.cmake\n'}
+[22.594266] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/cmake/my_cpp_py_pkgConfig-version.cmake\n'}
+[22.595012] (my_cpp_py_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/shorouk/ros2_ws/install/my_cpp_py_pkg/share/my_cpp_py_pkg/package.xml\n'}
+[22.609046] (my_cpp_py_pkg) CommandEnded: {'returncode': 0}
+[22.646491] (-) TimerEvent: {}
+[22.748537] (-) TimerEvent: {}
+[22.898412] (-) TimerEvent: {}
+[22.911160] (my_cpp_py_pkg) JobEnded: {'identifier': 'my_cpp_py_pkg', 'rc': 0}
+[22.917236] (-) EventReactorShutdown: {}

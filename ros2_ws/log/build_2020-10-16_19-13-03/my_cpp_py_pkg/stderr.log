@@ -1,0 +1,19 @@
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:[m[K In constructor ‘[01m[KMyNode::MyNode()[m[K’:
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:51:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope
+     [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::String>(
+     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:51:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krcl_subscription_t[m[K’
+     [01;36m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::String>(
+     [01;36m[K^~~~~~~~~~~~~[m[K
+     [32m[Krcl_subscription_t[m[K
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:[m[K In member function ‘[01m[Kvoid MyNode::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:71:20:[m[K [01;31m[Kerror: [m[K‘[01m[KDirection[m[K’ was not declared in this scope
+     message.data = [01;31m[KDirection[m[K(msg->data.c_str());
+                    [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:71:20:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksigaction[m[K’
+     message.data = [01;36m[KDirection[m[K(msg->data.c_str());
+                    [01;36m[K^~~~~~~~~[m[K
+                    [32m[Ksigaction[m[K
+make[2]: *** [CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/cpp_executable.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,10 @@
+[0.070s] Invoking command in '/home/shorouk/ros2_ws/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/shorouk/ros2_ws/build/my_cpp_py_pkg -- -j4 -l4
+[0.265s] [35m[1mScanning dependencies of target cpp_executable[0m
+[0.399s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o[0m
+[11.525s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:[m[K In member function ‘[01m[Kvoid MyNode::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[13.394s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:66:45:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst MyNode[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+[13.395s]    message.data = Direction(msg->data.c_str()[01;31m[K)[m[K;
+[13.396s]                                              [01;31m[K^[m[K
+[13.396s] [01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:34:8:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kstd::__cxx11::string MyNode::Direction(std::__cxx11::string)[m[K’
+[13.397s]  string [01;36m[KDirection[m[K(string x)
+[13.397s]         [01;36m[K^~~~~~~~~[m[K
