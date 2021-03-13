@@ -19,8 +19,8 @@ from matplotlib import pyplot as plt
 
 def getGateGridNumber(image):
     imageEnhanced = PIL.ImageEnhance.Brightness(image).enhance(0.9)
-    imageEnhanced = PIL.ImageEnhance.Contrast(imageEnhanced).enhance(2)
-    imageEnhanced = PIL.ImageEnhance.Sharpness(imageEnhanced).enhance(3.2)
+    imageEnhanced = PIL.ImageEnhance.Contrast(imageEnhanced).enhance(2.2)
+    imageEnhanced = PIL.ImageEnhance.Sharpness(imageEnhanced).enhance(3)
 
     imageCV = cv2.cvtColor(np.array(imageEnhanced), cv2.COLOR_RGB2BGR)
 
@@ -28,13 +28,13 @@ def getGateGridNumber(image):
     b = cv2.medianBlur(b,5)
 
     kernel = np.ones((5,5), np.uint8)
-    b = cv2.erode(b, kernel, iterations=5)
-    b = cv2.dilate(b, kernel, iterations=5)
+    b = cv2.erode(b, kernel, iterations=10)
+    b = cv2.dilate(b, kernel, iterations=10)
 
     rcParams['figure.figsize'] = 10, 12
     edges = cv2.Canny(b, 
-                    threshold1=100, ## try different values here
-                    threshold2=100) ## try different values here
+                    threshold1=80, ## try different values here
+                    threshold2=80) ## try different values here
                     
     #plt.title('Edge Detection')
     #plt.imshow(edges)
@@ -91,19 +91,28 @@ def getGateGridNumber(image):
                     fontFace= cv2.FONT_HERSHEY_SIMPLEX, fontScale=1, color=(0,0,0),
                     thickness=2, lineType=cv2.LINE_AA)
 
-    #plt.title("Gate Detection")
-    #plt.imshow(cv2.cvtColor(imageOutput, cv2.COLOR_BGR2RGB))
-    #plt.show()
+    cv2.line(imageOutput, (int(imageCV.shape[1]/3), 0),(int(imageCV.shape[1]/3), imageCV.shape[0]), (0, 255,255), 1, 1)
+    cv2.line(imageOutput, (int(imageCV.shape[1]/1.5), 0),(int(imageCV.shape[1]/1.5), imageCV.shape[0]), (0, 255,255), 1, 1)
+    cv2.line(imageOutput, (0,int(imageCV.shape[0]/3)),(imageCV.shape[1],int( imageCV.shape[0]/3)), (0, 255,255), 1, 1)
+    cv2.line(imageOutput, (0,int(imageCV.shape[0]/1.5)),(imageCV.shape[1],int( imageCV.shape[0]/1.5)), (0, 255,255), 1, 1)
 
+    im_pilColor = cv2.cvtColor(imageOutput, cv2.COLOR_BGR2RGB)
+    im_pil = Image.fromarray(im_pilColor)
+    im_pil.show()
     if len(rectanglesWidths)>=2:
-        for i in range(len(rectanglesWidths)):
-            if (rectanglesWidths[0] * rectanglesHeights[0] < rectanglesWidths[1] * rectanglesHeights[1]):
-                centerX = rectanglesWidths[0]
-                centerY = rectanglesHeights[0]
-            else:
-                centerX = rectanglesWidths[1]
-                centerY = rectanglesHeights[1]
-
+      for i in range(len(rectanglesWidths)):
+        if (rectanglesWidths[0] * rectanglesHeights[0] < rectanglesWidths[1] * rectanglesHeights[1]):
+          centerX = rectanglesWidths[0]
+          centerY = rectanglesHeights[0]
+        else:
+          centerX = rectanglesWidths[1]
+          centerY = rectanglesHeights[1]
+    elif len(rectanglesWidths)>=1:
+        centerX = rectanglesWidths[0]
+        centerY = rectanglesHeights[0]
+    else:
+        centerX = (max_x) - (min_x +50)
+        centerY = (max_y) - (min_y +150)
     #print(centerX, centerY)
 
     #Code to detect which grid (1 to 9)

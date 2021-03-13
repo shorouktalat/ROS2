@@ -1,6 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.002636] (-) JobUnselected: {'identifier': 'my_cpp_py_pkg'}
-[0.003698] (-) JobUnselected: {'identifier': 'my_python_pkg'}
-[0.003941] (-) JobUnselected: {'identifier': 'py_srvcli'}
-[0.004142] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
-[0.006640] (-) EventReactorShutdown: {}

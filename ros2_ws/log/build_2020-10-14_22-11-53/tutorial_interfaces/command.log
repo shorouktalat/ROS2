@@ -1,2 +1,0 @@
-Invoking command in '/home/shorouk/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/shorouk/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/shorouk/ros2_ws/install/tutorial_interfaces
-Invoked command in '/home/shorouk/ros2_ws/build/tutorial_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/shorouk/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/shorouk/ros2_ws/install/tutorial_interfaces

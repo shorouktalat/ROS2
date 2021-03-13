@@ -1,6 +1,0 @@
-[0.064s] Invoking command in '/home/shorouk/ros2_ws/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/shorouk/ros2_ws/build/my_cpp_py_pkg -- -j4 -l4
-[0.263s] [35m[1mScanning dependencies of target cpp_executable[0m
-[0.363s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o[0m
-[15.878s] [100%] [32m[1mLinking CXX executable cpp_executable[0m
-[16.937s] [100%] Built target cpp_executable
-[16.981s] Invoked command in '/home/shorouk/ros2_ws/build/my_cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/shorouk/ros2_ws/build/my_cpp_py_pkg -- -j4 -l4

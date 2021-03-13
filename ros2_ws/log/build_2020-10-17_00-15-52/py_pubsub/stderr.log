@@ -1,5 +1,0 @@
-  File "/home/shorouk/ros2_ws/install/py_pubsub/lib/python3.6/site-packages/py_pubsub/subscriber_member_function.py", line 40
-    if(msg1=="5")
-                ^
-SyntaxError: invalid syntax
-

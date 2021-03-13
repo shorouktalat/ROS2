@@ -1,2 +1,0 @@
-[0.072s] Invoking command in '/home/shorouk/ros2_ws/build/my_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shorouk/ros2_ws/install/py_srvcli:/home/shorouk/ros2_ws/install/py_pubsub:/home/shorouk/ros2_ws/install/my_python_pkg:/opt/ros/eloquent /usr/bin/cmake --build /home/shorouk/ros2_ws/build/my_cpp_py_pkg -- -j4 -l4
-[0.342s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o[0m

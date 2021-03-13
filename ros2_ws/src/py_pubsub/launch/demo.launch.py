@@ -10,7 +10,7 @@ def generate_launch_description():
         package="py_pubsub",
         node_executable="talker",
         output='screen', 
-        parameters=[{"img_src":"/home/shorouk/35.png"}]
+        parameters=[{"img_src":"/home/shorouk/51.png"}]
         
     )
     listener_node = Node(

@@ -1,4 +1,0 @@
-[ 50%] [32m[1mLinking CXX executable cpp_executable[0m
-CMakeFiles/cpp_executable.dir/build.make:129: recipe for target 'cpp_executable' failed
-CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/cpp_executable.dir/all' failed
-Makefile:140: recipe for target 'all' failed

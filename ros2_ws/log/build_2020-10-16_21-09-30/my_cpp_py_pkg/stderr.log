@@ -1,7 +1,0 @@
-[01m[K/home/shorouk/ros2_ws/src/my_cpp_py_pkg/src/cpp_node.cpp:96:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ does not name a type; did you mean ‘[01m[Kstdin[m[K’?
-  [01;31m[Kstring[m[K msgback;
-  [01;31m[K^~~~~~[m[K
-  [32m[Kstdin[m[K
-make[2]: *** [CMakeFiles/cpp_executable.dir/src/cpp_node.cpp.o] Error 1
-make[1]: *** [CMakeFiles/cpp_executable.dir/all] Error 2
-make: *** [all] Error 2
